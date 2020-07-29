@@ -88,12 +88,33 @@ add_action( 'wp_enqueue_scripts', 'scoot_register_scripts' );
 function scoot_menus() {
   $locations = array(
     'primary' => __( 'Desktop Header Menu', 'scoot' ),
-    'mobile'  => __) 'Mobile Menu', 'scoot'),
+    'mobile'  => __( 'Mobile Menu', 'scoot'),
     'footer'  => __( 'Footer Menu', 'scoot' ),
-    'social'  => __) 'Social Menu', 'scoot' )
+    'social'  => __( 'Social Menu', 'scoot' )
   );
 
-  register_nav_menu( $locations );
+  register_nav_menus( $locations );
 }
 
 add_action( 'init', 'scoot_menus' );
+
+if( ! function_exists( 'wp_body_open' )) {
+
+  /**
+	 * Shim for wp_body_open, ensuring backwards compatibility with versions of WordPress older than 5.2.
+	 */
+
+   function wp_body_open() {
+     do_action( 'wp_body_open' );
+   }
+}
+
+/**
+ * Include a skip to content link at the top of the page so that users can bypass the menu.
+ */
+
+ function scoot_skip_link() {
+   echo '<a class="skip-link screen-reader-text" href="#main-content">' . __( 'Skip to the content', 'scoot' ) . '</a>';
+ }
+
+ add_action( 'wp_body_open', 'scoot_skip_link', 5 );
