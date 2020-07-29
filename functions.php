@@ -1,9 +1,6 @@
 <?php
 /** Scoot functions and definitions
 */
-<?php
-/** Scoot functions and definitions
-*/
 
 /**
  * Table of Contents:
@@ -63,6 +60,10 @@ add_action( 'after_setup_theme', 'scoot_theme_support');
 
  function scoot_register_styles() {
 
+    $theme_version = wp_get_theme()->get( 'version' );
+
+    wp_enqueue_style( 'custom-google-fonts', '//fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700' );
+    wp_enqueue_style( 'scoot_style', get_stylesheet_uri(), array(), $theme_version );
  }
 
  add_action( 'wp_enqueue_scripts', 'scoot_register_styles' );
