@@ -15,6 +15,9 @@
   </head>
 
   <body <?php body_class(); ?>>
+
+    <?php wp_body_open(); ?>
+
     <header id="site-header" role="banner">
       <div class="header-inner section-inner">
         <div class="header-titles-wrapper">
@@ -31,5 +34,3 @@
     // Output the menu modal
     get_template_part('template-parts/modal-menu');
     ?>
-
-  
