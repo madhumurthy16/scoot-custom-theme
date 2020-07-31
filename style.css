@@ -295,3 +295,13 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
+
+/* Media ------------------------------------- */
+
+
+svg,
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
