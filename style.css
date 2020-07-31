@@ -10,6 +10,288 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
+ /*--------------------------------------------------------------
+ >>> TABLE OF CONTENTS:
+ ----------------------------------------------------------------
+
+ 	0. 	CSS Reset
+ 	1. 	Document Setup
+ 	2. 	Element Base
+ 	3. 	Helper Classes
+ 	4. 	Site Header
+ 	5. 	Menu Modal
+ 	6. Error 404
+ 	7. Widgets
+ 	8. Site Footer
+ 	9. Media Queries
+
+ ----------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	0. CSS Reset
+/* -------------------------------------------------------------------------- */
+
+html,
 body {
-  font-family: 'Lexend Deca', sans-serif;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+}
+
+blockquote::before,
+blockquote::after {
+	content: "";
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. Document Setup
+/* -------------------------------------------------------------------------- */
+
+html {
+ font-size: 62.5%; /* 1rem = 10px */
+ scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce ) {
+ html {
+   scroll-behavior: auto;
+ }
+}
+
+body {
+  background: #fff;
+  box-sizing: border-box;
+  color: #939CAA;
+  font-family: 'Lexend Deca', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+/*#main-content {
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 3rem;
+}*/
+
+
+/* Clearing ---------------------------------- */
+
+/*.entry-content::after {
+  clear: both;
+  content: "";
+  display: block;
+}*/
+
+
+/* Base Transitions -------------------------- */
+
+/*a {
+  transition: color 0.15s linear;
+}*/
+
+
+/* Screen Reader Text  ----------------------- */
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	word-break: normal;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	-webkit-clip-path: none;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	right: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+
+/* Skip Link --------------------------------- */
+
+.skip-link {
+	left: -9999rem;
+	top: 2.5rem;
+	z-index: 999999999;
+	text-decoration: underline;
+}
+
+.skip-link:focus {
+	display: block;
+	left: 6px;
+	top: 7px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	z-index: 100000;
+	right: auto;
+}
+
+
+/* Accessibility Settings -------------------- */
+
+@media ( prefers-reduced-motion: reduce ) {
+
+  * {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*	2. Element Base
+/* ---------------------------------------------*---------------------------- */
+
+/*main {
+  display: block;
+}*/
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  color: #495567;
+  /*margin: 3.5rem 0 2rem;*/
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  letter-spacing: -2.5;
+}
+
+h2 {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  letter-spacing: -2.14;
+}
+
+h3 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -1.79;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: -1.07;
+}
+
+p {
+  /*line-height: 1.5;
+  margin: 0 0 1em 0;*/
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+/*small {
+  font-size: 0.75em;
+}*/
+
+b,
+strong {
+  font-weight: 700;
+}
+
+/*hr {
+  border-style: solid;
+  border-width: 0.1rem 0 0 0;
+  border-color: #f7f3f3;
+  margin-left: 2rem;
+}*/
+
+a {
+  color: #FCB72B;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
