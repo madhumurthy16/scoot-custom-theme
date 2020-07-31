@@ -19,15 +19,24 @@
     <?php wp_body_open(); ?>
 
     <header id="site-header" role="banner">
+
       <div class="header-inner section-inner">
+
         <div class="header-titles-wrapper">
+
           <div class="header-titles">
-            <div class="site-logo">
-              <h1><a href="<?php echo site_url(); ?>"><?php echo get_bloginfo( 'name' ); ?></a><h1>
-            </div>
-          </div>
-        </div>
-      </div>
+
+            <?php
+              // Site title or logo
+              scoot_site_logo();
+
+            ?>
+
+          </div> <!-- .header-titles -->
+
+        </div> <!-- .header-titles-wrapper -->
+
+      </div> <!-- .header-inner -->
     </header>
 
     <?php
