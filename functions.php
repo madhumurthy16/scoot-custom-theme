@@ -22,6 +22,23 @@ function scoot_theme_support() {
 }
 
 /*
+ * Custom logo
+ */
+
+ $logo_width = 108;
+ $logo_height = 29;
+
+ add_theme_support(
+    'custom-logo',
+    array(
+        'height'      => $logo_height,
+        'width'       => $logo_width,
+        'flex-height' => true,
+        'flex-width'  => true
+    )
+ );
+
+/*
  * Let WordPress manage the document title.
  */
 
@@ -54,6 +71,8 @@ add_action( 'after_setup_theme', 'scoot_theme_support');
 * Include required files.
 */
 
+require get_template_directory() . '/inc/template-tags.php';
+
 /**
 * Register and Enqueue Styles.
 */
@@ -62,7 +81,7 @@ function scoot_register_styles() {
 
   $theme_version = wp_get_theme()->get( 'version' );
 
-  wp_enqueue_style( 'custom-google-fonts', '//fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700' );
+  wp_enqueue_style( 'custom-google-fonts', '//fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap' );
   wp_enqueue_style( 'scoot_style', get_stylesheet_uri(), array(), $theme_version );
 }
 
