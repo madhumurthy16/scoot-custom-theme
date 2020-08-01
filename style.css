@@ -296,12 +296,74 @@ a:focus {
   text-decoration: underline;
 }
 
+/* Lists ------------------------------------- */
+
+ul {
+	margin: 0 0 3rem 3rem;
+	list-style: none;
+}
+
+li {
+	line-height: 1.5;
+	margin: 0.5rem 0 0 2rem;
+}
+
+.reset-list-style, .reset-list-style ul {
+	list-style: none;
+	margin: 0;
+}
+
+/*.reset-list-style li {
+	margin: 0;
+}*/
+
+
+
 /* Media ------------------------------------- */
 
-
-svg,
 img {
 	display: block;
 	height: auto;
 	max-width: 100%;
 }
+
+/* -------------------------------------------------------------------------- */
+
+/*	3. Helper Classes
+/* -------------------------------------------------------------------------- */
+
+/* Sections ---------------------------------- */
+
+/*section {
+	padding: 5rem 0;
+	width: 100%;
+}*/
+
+.section-inner {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 144rem;
+	width: calc(100% - 16.7rem);
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	15. Media Queries
+/* -------------------------------------------------------------------------- */
+
+
+@media (min-width: 768px) {
+
+/* Menu Modal ---------------------------- */
+
+  /*.menu-modal {
+     visibility: hidden;
+   }*/
+
+  .site-header-menu-trigger {
+     display: none;
+   }
+ }
