@@ -233,31 +233,32 @@ h3,
 h4 {
   font-weight: 700;
   color: #495567;
+	text-align: center;
   /*margin: 3.5rem 0 2rem;*/
 }
 
 h1 {
-  font-size: 5.6rem;
-  line-height: 5.6rem;
-  letter-spacing: -2.5;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -1.78571px;
 }
 
 h2 {
-  font-size: 4.8rem;
-  line-height: 4.8rem;
-  letter-spacing: -2.14;
+	font-size: 32px;
+	line-height: 32px;
+	letter-spacing: -1.42857px;
 }
 
 h3 {
-  font-size: 4rem;
-  line-height: 4.8rem;
-  letter-spacing: -1.79;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -1.07143px;
 }
 
 h4 {
-  font-size: 2.4rem;
-  line-height: 2.8rem;
-  letter-spacing: -1.07;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.803571px;
 }
 
 p {
@@ -343,9 +344,59 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 144rem;
-	width: calc(100% - 16.7rem);
+	width: calc(100% - 3.2rem);
 }
 
+
+/* -------------------------------------------------------------------------- */
+
+/*	4.	Site Header
+/* -------------------------------------------------------------------------- */
+
+#site-header {
+	background: #fff;
+	height: 64px;
+}
+
+.header-inner {
+	padding: 2.2rem 0;
+}
+
+.site-title {
+
+}
+
+.site-title a {
+
+}
+
+.site-title a:hover {
+
+}
+
+/* Header Titles ----------------------------- */
+
+.header-titles-wrapper {
+	display: flex;
+}
+
+.header-titles {
+	margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*	5. Menu Modal
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* Header Navigation ------------------------- */
+
+.header-navigation-wrapper {
+	display: none;
+}
 
 
 
@@ -357,6 +408,32 @@ img {
 
 @media (min-width: 768px) {
 
+/* Element Base--------------------------- */
+
+h1 {
+	font-size: 5.6rem;
+	line-height: 5.6rem;
+	letter-spacing: -2.5;
+}
+
+h2 {
+	font-size: 4.8rem;
+	line-height: 4.8rem;
+	letter-spacing: -2.14;
+}
+
+h3 {
+	font-size: 4rem;
+	line-height: 4.8rem;
+	letter-spacing: -1.79;
+}
+
+h4 {
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	letter-spacing: -1.07;
+}
+
 /* Menu Modal ---------------------------- */
 
   /*.menu-modal {
@@ -366,4 +443,22 @@ img {
   .site-header-menu-trigger {
      display: none;
    }
+
+
+/* -------------------------------------------------------------------------- */
+
+ /*	3. Helper Classes
+ /* -------------------------------------------------------------------------- */
+
+ /* Sections ---------------------------------- */
+
+ /*section {
+ 	padding: 5rem 0;
+ 	width: 100%;
+ }*/
+
+ .section-inner {
+ 	width: calc(100% - 16.7rem);
  }
+
+}
