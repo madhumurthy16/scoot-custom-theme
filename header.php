@@ -24,9 +24,10 @@
 
         <div class="header-titles-wrapper">
 
+          <img src="<?php echo get_template_directory_uri() . '/assets/icons/hamburger.svg' ?>" class="site-header-menu-trigger" alt="hamburger icon for mobile menu" aria-hidden="true" />
+
           <div class="header-titles">
 
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/hamburger.svg' ?>" class="site-header-menu-trigger" alt="hamburger icon for mobile menu" aria-hidden="true" />
             <?php
               // Site title or logo
               scoot_site_logo();
