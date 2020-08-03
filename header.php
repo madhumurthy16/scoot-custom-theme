@@ -68,7 +68,7 @@
           }
           ?>
 
-          <a href="#app-download-section" class="btn-call-to-action">Get Scootin</a>
+          <!-- <a href="#app-download-section" class="btn-call-to-action">Get Scootin</a> -->
 
         </div> <!-- .header-navigation-wrapper -->
 
