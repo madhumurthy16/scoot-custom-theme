@@ -294,19 +294,19 @@ a {
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Lists ------------------------------------- */
 
 ul {
-	margin: 0 0 3rem 3rem;
+	/*margin: 0 0 3rem 3rem;*/
 	list-style: none;
 }
 
 li {
 	line-height: 1.5;
-	margin: 0.5rem 0 0 2rem;
+	/*margin: 0.5rem 0 0 2rem;*/
 }
 
 .reset-list-style, .reset-list-style ul {
@@ -355,7 +355,7 @@ img {
 
 #site-header {
 	background: #fff;
-	height: 64px;
+	height: 6.4rem;
 }
 
 .header-inner {
@@ -389,9 +389,81 @@ img {
 /*	5. Menu Modal
 /* -------------------------------------------------------------------------- */
 
+.menu-modal {
+	visibility: hidden;
+	position: absolute;
+	top: 64px;
+	left: 0;
+	width: 25.6rem;
+	background-color: #333A44;
+	height: calc(100vh - 64px);
+	z-index: 100;
+	-webkit-transform: translateX(-20%);
+	transform: translateX(-20%);
+	transition: opacity .3s ease-out, visibility .3s ease-out -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+}
 
+.mobile-menu {
+	padding-top: 6.4rem;
+	height: 100%;
+}
 
+.modal-menu {
+	font-family: 'Space Mono', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100%
+}
 
+.modal-menu li {
+	margin-bottom: 2.4rem;
+}
+
+.modal-menu li a {
+	color: #E5ECF4;
+}
+
+.modal-menu li a:hover {
+	color: #FCB72B;
+}
+
+.modal-menu li:last-child {
+	margin-top: auto;
+}
+
+.site-header-menu-trigger {
+	cursor: pointer;
+}
+
+.site-header-menu-active {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.btn-call-to-action {
+	background-color: #FCB72B;
+	font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+	color: #FFFFFF;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.btn-call-to-action:hover {
+	border: 1px solid #FCB72B;
+	background-color: transparent;
+}
+
+.btn-call-to-action:hover a {
+	color: #FCB72B;
+}
 
 /* Header Navigation ------------------------- */
 
@@ -434,6 +506,73 @@ h4 {
 	line-height: 2.8rem;
 	letter-spacing: -1.07;
 }
+
+/* Header Titles ----------------------------- */
+
+.header-inner {
+	display: flex;
+	align-items: center;
+}
+
+.header-titles-wrapper {
+	margin-right: 5.818rem;
+}
+
+/* Header Navigation ------------------------- */
+
+.header-navigation-wrapper,
+.primary-menu-wrapper,
+.primary-menu {
+	width: 100%;
+}
+
+.header-navigation-wrapper {
+	display: flex;
+}
+
+.primary-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.primary-menu li {
+	font-family: Space Mono;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 25px;
+	margin-right: 3.2rem;
+}
+
+.primary-menu li:last-child {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.primary-menu li a {
+	color: #939CAA;
+}
+
+.primary-menu li a:hover {
+	color: #FCB72B;
+}
+
+
+.primary-menu .btn-call-to-action {
+	padding-left: 3.9rem;
+	padding-right: 3.9rem;
+}
+
+.primary-menu .btn-call-to-action a {
+	color: #fff;
+}
+
+.primary-menu .btn-call-to-action:hover a {
+	/*background-color: transparent;
+	border: 1px solid #FCB72B;*/
+	color: #FCB72B;
+}
+
 
 /* Menu Modal ---------------------------- */
 
