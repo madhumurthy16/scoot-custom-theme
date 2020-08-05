@@ -24,8 +24,10 @@
 
         <div class="header-titles-wrapper">
 
-          <img src="<?php echo get_template_directory_uri() . '/assets/icons/hamburger.svg' ?>" class="site-header-menu-trigger" alt="hamburger icon for mobile menu" aria-hidden="true" />
-          <img src="<?php echo get_template_directory_uri() . '/assets/icons/close.svg' ?>" class="site-header-menu-close" alt="close icon for mobile menu" aria-hidden="true" />
+          <button class="site-header-menu-trigger">
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/hamburger.svg' ?>" class="openIcon" alt="hamburger icon for mobile menu" aria-hidden="true" />
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/close.svg' ?>" class="closeIcon invisible" alt="close icon for mobile menu" aria-hidden="true" />
+          </button>
 
           <div class="header-titles">
 
