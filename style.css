@@ -465,6 +465,15 @@ img {
 	color: #FCB72B;
 }
 
+.site-header-menu-trigger {
+	opacity: 1;
+}
+
+.site-header-menu-close {
+	opacity: 0;
+}
+
+
 /* Header Navigation ------------------------- */
 
 .header-navigation-wrapper {
