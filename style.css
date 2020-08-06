@@ -231,9 +231,9 @@ h1,
 h2,
 h3,
 h4 {
+	font-family: Space Mono, sans-serif;
   font-weight: 700;
   color: #495567;
-	text-align: center;
   /*margin: 3.5rem 0 2rem;*/
 }
 
@@ -262,8 +262,10 @@ h4 {
 }
 
 p {
-  /*line-height: 1.5;
-  margin: 0 0 1em 0;*/
+	font-family: 'Lexend Deca', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  /* margin: 0 0 1em 0;*/
 }
 
 em,
@@ -355,7 +357,7 @@ img {
 
 #site-header {
 	background: #fff;
-	height: 6.4rem;
+	/*height: 6.4rem;*/
 }
 
 .header-inner {
@@ -482,12 +484,56 @@ img {
 	display: none;
 }
 
+/* -------------------------------------------------------------------------- */
+
+/*	3. Home Page
+/* -------------------------------------------------------------------------- */
+
+.hero-image {
+	background-image: url('./assets/images/home-hero-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	/*background: #2F3B59;
+	opacity: 0.75;*/
+	text-align: center;
+	padding-top: 11.5rem;
+}
+
+.hero-title {
+		color: #fff;
+		margin-bottom: 2.4rem;
+}
+
+.hero-text {
+	margin-bottom: 3.4rem;
+	color: #fff;
+}
+
+.hero-cta {
+	padding: 1.4rem 4rem;
+}
+
+
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
 
 /*	15. Media Queries
 /* -------------------------------------------------------------------------- */
+
+
+@media (min-width: 375px) {
+
+/* Home Page ------------------------------ */
+
+	.hero-image {
+		background-image: url('./assets/images/home-hero-tablet.jpg');
+	}
+}
 
 
 @media (min-width: 768px) {
@@ -534,8 +580,6 @@ h4 {
 .header-titles-wrapper {
 	margin-right: 5.818rem;
 }
-
-
 
 /* Header Navigation ------------------------- */
 
@@ -604,13 +648,9 @@ h4 {
      display: none;
    }
 
+/* Helper Classes ------------------------- */
 
-/* -------------------------------------------------------------------------- */
-
- /*	3. Helper Classes
- /* -------------------------------------------------------------------------- */
-
- /* Sections ---------------------------------- */
+ /* SECTIONS */
 
  /*section {
  	padding: 5rem 0;
@@ -621,4 +661,15 @@ h4 {
  	width: calc(100% - 16.7rem);
  }
 
+ /* Home Page ------------------------------ */
+
+	.hero-image {
+		/*background: #2F3B59;
+		opacity: 0.75;*/
+		background-image: url('./assets/images/home-hero-desktop.jpg');
+	}
+
+	.hero-title {
+			width: 50rem;
+	}
 }
