@@ -18,11 +18,21 @@ get_header();
       </div> <!-- .hero-content -->
     </div> <!-- .section-inner -->
 
-    <div class="hero-pattern">
-      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/right-arrow.svg' ?>" alt="" aria-hidden="true" />
-      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/white-circles.svg' ?>" alt="" aria-hidden="true" />
-
+    <div class="hero-pattern-line">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/line.svg' ?>" alt="" aria-hidden="true" />
     </div>
+
+    <div class="hero-pattern-group">
+
+      <div class="right-arrow">
+        <img src="<?php echo get_template_directory_uri() . '/assets/patterns/right-arrow.svg' ?>" alt="" aria-hidden="true" />
+      </div>
+
+      <div class="white-circles">
+        <img src="<?php echo get_template_directory_uri() . '/assets/patterns/white-circles.svg' ?>" alt="" aria-hidden="true" />
+      </div>
+
+    </div> <!-- .hero-pattern -->
 
   </section> <!-- .hero-image -->
 
