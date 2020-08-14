@@ -18,11 +18,11 @@ get_header();
       </div> <!-- .hero-content -->
     </div> <!-- .section-inner -->
 
-    <div class="hero-pattern-line">
+    <div class="line">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/line.svg' ?>" alt="" aria-hidden="true" />
     </div>
 
-    <div class="hero-pattern-group">
+    <!-- <div class="hero-pattern-group"> -->
 
       <div class="right-arrow">
         <img src="<?php echo get_template_directory_uri() . '/assets/patterns/right-arrow.svg' ?>" alt="" aria-hidden="true" />
@@ -32,7 +32,7 @@ get_header();
         <img src="<?php echo get_template_directory_uri() . '/assets/patterns/white-circles.svg' ?>" alt="" aria-hidden="true" />
       </div>
 
-    </div> <!-- .hero-pattern -->
+    <!-- </div> --> <!-- .hero-pattern-group -->
 
   </section> <!-- .hero-image -->
 
