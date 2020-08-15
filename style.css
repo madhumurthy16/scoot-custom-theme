@@ -535,14 +535,19 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 65rem;
+	position: relative;
 	/*background: #2F3B59;
 	opacity: 0.75;*/
 }
 
 .hero-content {
 	text-align: center;
-	padding-top: 11.5rem;
+	padding: 11.5rem 4% 0 4%;
+}
 
+.hero-inner {
+	max-width: 31.1rem;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -568,7 +573,12 @@ img {
 .hero-image .right-arrow {
 	width: 45.418rem;
 	height: 13.744rem;
-	transform: translateX(-312px);
+	position: absolute;
+	/*left: -31.2rem;*/
+	/*right: 23.0rem;*/
+	right: 62%;
+	bottom: 3.4rem;
+	/*transform: translateX(-312px);*/
 	/*padding-bottom: 3.456rem;*/
 }
 
@@ -603,6 +613,14 @@ img {
 	.hero-image {
 		background-image: url('./assets/images/home-hero-tablet.jpg');
 	}
+}
+
+@media (min-width: 640px ) {
+	.hero-content .hero-inner {
+		max-width: 450px;
+	}
+
+
 }
 
 
@@ -764,13 +782,17 @@ h4 {
 		padding-top: 13.7rem;
 	}
 
+	.hero-content .hero-inner {
+		max-width: 573px;
+	}
+
 	.hero-title {
 		padding: 0 2rem;
 	}
 
 	.hero-text {
 		margin-bottom: 3.2rem;
-		padding: 0 2rem;
+		/*padding: 0 1rem;*/
 	}
 
 	.hero-cta {
@@ -778,31 +800,33 @@ h4 {
 	}
 
 	.hero-image .right-arrow {
-		width: 44.7rem;
-		height: 13.8rem;
-		transform: translateX(-127px);
+		position: absolute;
+		width: 45.4rem;
+		height: 15.2rem;
+		right: 57.42%;
+		bottom: 3.9rem;
+		/*transform: translateX(-127px);*/
 
 		/*padding-bottom: 3.9rem;*/
 	}
 
-
 	.hero-image .white-circles {
+		position: absolute;
 		display: block;
 		width: 23.4rem;
 		height: 6.3rem;
-		transform: translate(56.5rem, -6.55rem);
+		left: 56.5rem;
+		bottom: 4.5rem;
+		/*transform: translate(56.5rem, -6.55rem);*/
 	}
 }
 
 @media (min-width: 1200px) {
 
-	.section-inner,
-	.content-inner {
+	.section-inner
+	/*.content-inner */{
 		 width: calc(100% - 33.4rem);
 	}
-
-
-/*@media (min-width: 1440px) {*/
 
 	.hero-image .line {
 		display: block;
@@ -815,9 +839,15 @@ h4 {
 	}
 
 	.hero-content {
-		padding-top: 15.3rem;
-		width: 50rem;
+		padding: 15.3rem 0 0 0;
+
 		text-align: left;
+	}
+
+	.hero-content,
+	.hero-content .hero-inner {
+		max-width: 50rem;
+		margin: 0;
 	}
 
 	.hero-title {
@@ -845,4 +875,8 @@ h4 {
 		width: 202px;
 		transform: translate(1254px, -269px);
 	}
+}
+
+@media (min-width: 1440px)
+
 }
