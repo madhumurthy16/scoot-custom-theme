@@ -536,6 +536,7 @@ img {
 	background-size: cover;
 	height: 65rem;
 	position: relative;
+	overflow: hidden;
 	/*background: #2F3B59;
 	opacity: 0.75;*/
 }
@@ -578,6 +579,7 @@ img {
 	/*right: 23.0rem;*/
 	right: 62%;
 	bottom: 3.4rem;
+	bottom: 3.6rem;
 	/*transform: translateX(-312px);*/
 	/*padding-bottom: 3.456rem;*/
 }
