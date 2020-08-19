@@ -328,7 +328,7 @@ li {
 img {
 	display: block;
 	height: auto;
-	min-width: 100%;
+	max-width: 100%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -404,10 +404,10 @@ img {
 /*	5. Menu Modal
 /* -------------------------------------------------------------------------- */
 
-/*.container {
+.container {
 	position: relative;
 	overflow: hidden;
-}*/
+}
 
 .menu-modal {
 	visibility: hidden;
@@ -485,10 +485,14 @@ img {
 }
 
 .btn-call-to-action {
+	width: 180px;
 	height: 53px;
 	background-color: #FCB72B;
 	padding-top: 14px;
 	padding-bottom: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn-call-to-action a {
@@ -496,11 +500,12 @@ img {
   line-height: 25px;
   text-align: center;
 	color: #FFFFFF;
+
 }
 
 .btn-call-to-action:hover {
 	border: 3px solid #FCB72B;
-	background-color: inherit;
+	background-color: transparent;
 	/*margin: -3px;*/
 }
 
@@ -509,9 +514,9 @@ img {
 }
 
 .modal-menu .btn-call-to-action {
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 
 .invisible {
@@ -621,8 +626,6 @@ img {
 	.hero-content .hero-inner {
 		max-width: 450px;
 	}
-
-
 }
 
 
@@ -725,12 +728,13 @@ h4 {
 
 .primary-menu li a:hover {
 	color: #FCB72B;
+
 }
 
 
 .primary-menu .btn-call-to-action {
-	padding-left: 3.9rem;
-	padding-right: 3.9rem;
+	/*padding-left: 3.9rem;
+	padding-right: 3.9rem;*/
 }
 
 .primary-menu .btn-call-to-action a {
@@ -798,7 +802,8 @@ h4 {
 	}
 
 	.hero-cta {
-		margin-bottom:3.8rem;
+		margin-bottom: 3.8rem;
+		cursor: pointer;
 	}
 
 	.hero-image .right-arrow {
@@ -806,7 +811,7 @@ h4 {
 		width: 45.4rem;
 		height: 15.2rem;
 		right: 57.42%;
-		bottom: 3.9rem;
+		bottom: 3.2rem;
 		/*transform: translateX(-127px);*/
 
 		/*padding-bottom: 3.9rem;*/
@@ -817,7 +822,8 @@ h4 {
 		display: block;
 		width: 23.4rem;
 		height: 6.3rem;
-		left: 56.5rem;
+		/*left: 56.5rem;*/
+		right: -31px;
 		bottom: 4.5rem;
 		/*transform: translate(56.5rem, -6.55rem);*/
 	}
@@ -879,6 +885,6 @@ h4 {
 	}
 }
 
-@media (min-width: 1440px)
+/*@media (min-width: 1440px) {
 
-}
+}*/
