@@ -38,6 +38,12 @@ get_header();
 
   </section> <!-- .hero-image -->
 
+  <main id="main-content" role="main">
+
+    <?php get_template_part( 'template-parts/home-main-content'); ?>
+
+  </main>
+
 </div>  <!-- .container -->
 
 <?php
