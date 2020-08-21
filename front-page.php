@@ -38,7 +38,7 @@ get_header();
 
   </section> <!-- .hero-image -->
 
-  <main id="main-content" role="main">
+  <main id="main-content" class="section-inner content-inner" role="main">
 
     <?php get_template_part( 'template-parts/home-main-content'); ?>
 
