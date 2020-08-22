@@ -817,6 +817,7 @@ h4 {
 		/*background: #2F3B59;
 		opacity: 0.75;*/
 		background-image: url('./assets/images/home-hero-desktop.jpg');
+		z-index: 100;
 	}
 
 	.hero-content {
