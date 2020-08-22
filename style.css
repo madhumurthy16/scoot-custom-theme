@@ -622,7 +622,7 @@ img {
 	height: 5.6rem;
 }
 
-.how-it-works h3 {
+.how-it-works h4 {
 	margin-bottom: 2.4rem;
 }
 
@@ -800,14 +800,18 @@ h4 {
 		width: calc(100% - 8rem);
  }
 
+ .content-inner {
+	 width: calc(100% - 19.5rem);
+ }
+
  /* Home Page ------------------------------ */
 
  /* HERO */
 
- .content-inner {
+ /*.content-inner {
 	 padding-left: 5.7rem;
 	 padding-right: 5.8rem;
- }
+ }*/
 
 	.hero-image {
 		/*background: #2F3B59;
@@ -861,16 +865,40 @@ h4 {
 
 	.how-it-works {
 		position: relative;
+		padding: 0;
+		margin-top: 12.2rem;
+		margin-bottom: 12rem;
+	}
+
+	.how-it-works img {
+		width: 9.6rem;
+		height: 9.6rem;
+		margin: 0;
+		grid-column: 1;
+    grid-row: 1/3;
+		z-index: 100;
 	}
 
 	.how-it-works div:not(.accent-border) {
 		display: grid;
-		grid-template-columns: 17.5rem 1fr;
+		grid-template-columns: 1fr 39.8rem;
+		grid-template-columns: 30.54% 69.46%;
 		text-align: left;
+	}
+
+	.how-it-works h4 {
+    margin-bottom: 2.7rem;
+		grid-column: 2;
+    grid-row: 1;
 	}
 
 	.how-it-works p {
 		grid-column: 2;
+    grid-row: 2;
+	}
+
+	.how-it-works div:not(.accent-border):not(.ride-scooter) {
+		margin-bottom: 4rem;
 	}
 
 	.how-it-works .accent-border {
@@ -878,9 +906,10 @@ h4 {
 		position: absolute;
 		width: 1px;
 		height: 513px;
-		left: 145px;
-		top: 746px;
+		left: 30px;
+		top: -150px;
 		border: 15px solid #E5ECF4;
+		z-index: 1;
 	}
 }
 
