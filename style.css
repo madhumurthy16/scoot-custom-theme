@@ -627,7 +627,7 @@ img {
 }
 
 
-.how-it-works div:not(.ride-scooter) {
+.how-it-works div:not(.accent-border):not(.ride-scooter) {
 	margin-bottom: 4.8rem;
 }
 
@@ -890,12 +890,11 @@ h4 {
 	.how-it-works h4 {
     margin-bottom: 2.7rem;
 		grid-column: 2;
-    grid-row: 1;
 	}
 
 	.how-it-works p {
 		grid-column: 2;
-    grid-row: 2;
+		padding-right: 2.5rem;
 	}
 
 	.how-it-works div:not(.accent-border):not(.ride-scooter) {
@@ -905,11 +904,10 @@ h4 {
 	.how-it-works .accent-border {
 		display: block;
 		position: absolute;
-		width: 1px;
-		height: 513px;
-		left: 30px;
-		top: -150px;
-		border: 15px solid #E5ECF4;
+		height: 51.3rem;
+		left: 4.05rem;
+		top: -15rem;
+		border: 7.5px solid #E5ECF4;
 		z-index: 1;
 	}
 }
@@ -973,6 +971,7 @@ h4 {
 
 }
 
+
 @media (min-width: 1330px) {
 	.hero-image .right-arrow {
 		width: 44.638rem;
@@ -988,6 +987,42 @@ h4 {
 		right: -48px;
 		bottom: 16.45rem;
 	}
+
+	/* SECTION - HOW IT WORKS */
+
+	.how-it-works {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 3rem;
+		margin-top: 16rem;
+		margin-bottom: 20rem;
+	}
+
+	.how-it-works div:not(.accent-border):not(.ride-scooter) {
+    margin-bottom: 0;
+	}
+
+	.how-it-works .accent-border {
+		height: 1px;
+    width: 97.4rem;
+		left: -19.5rem;
+    top: 4.05rem;
+    transform: rotate(180deg);
+		margin-bottom: 0;
+	}
+
+	.how-it-works div:not(.accent-border) {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.how-it-works img {
+		margin-bottom: 4rem;
+	}
+
+	.how-it-works p {
+		padding-right: 2rem;
+	}
 }
 
 
@@ -999,5 +1034,54 @@ h4 {
 		left: 48.95%;
 		/*bottom: 15.052rem;*/
 		/*bottom: 23.16%;*/
+	}
+
+	/* SECTION - HOW IT WORKS */
+
+	.how-it-works .accent-border {
+    left: -16.7rem;
+	}
+
+	/*.how-it-works {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 3rem;
+		margin-top: 16rem;
+		margin-bottom: 20rem;
+	}
+
+	.how-it-works div:not(.accent-border):not(.ride-scooter) {
+    margin-bottom: 0;
+	}
+
+	.how-it-works .accent-border {
+		height: 1px;
+    width: 97.4rem;
+    left: -16.7rem;
+    top: 4.05rem;
+    transform: rotate(180deg);
+		margin-bottom: 0;
+	}
+
+	.how-it-works div:not(.accent-border) {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.how-it-works img {
+		margin-bottom: 4rem;
+	}
+
+	.how-it-works p {
+		padding-right: 2rem;
+	}*/
+}
+
+@media (min-width: 1510px) {
+
+	/* SECTION - HOW IT WORKS */
+
+	.how-it-works .accent-border {
+		display: none;
 	}
 }
