@@ -10,7 +10,7 @@
   <div class="accent-border"></div>
 
     <div class="locate-scooter">
-      <img src="<?php echo get_template_directory_uri() . '/assets/icons/locate.svg' ?>" alt="" aria-hidden="true" />
+      <img src="<?php echo get_template_directory_uri() . '/assets/icons/locate.svg' ?>" aria-hidden="true" />
 
       <h4>Locate with app</h4>
 
@@ -19,7 +19,7 @@
     </div> <!-- .locate-scooter -->
 
     <div class="pick-scooter">
-      <img src="<?php echo get_template_directory_uri() . '/assets/icons/scooter.svg' ?>" alt="" aria-hidden="true" />
+      <img src="<?php echo get_template_directory_uri() . '/assets/icons/scooter.svg' ?>" aria-hidden="true" />
 
       <h4>Pick your scooter</h4>
 
@@ -28,7 +28,7 @@
     </div> <!-- .pick-scooter -->
 
     <div class="ride-scooter">
-      <img src="<?php echo get_template_directory_uri() . '/assets/icons/ride.svg' ?>" alt="" aria-hidden="true" />
+      <img src="<?php echo get_template_directory_uri() . '/assets/icons/ride.svg' ?>" aria-hidden="true" />
 
       <h4>Enjoy the ride</h4>
 
@@ -37,3 +37,19 @@
     </div> <!-- .ride-scooter -->
 
 </section> <!-- .how-it-works -->
+
+<section class="riding-telemetry">
+
+  <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg' ?>" alt="Women checking her mobile phone" />
+  <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+  <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+
+  <h2>Easy to use riding telemetry</h2>
+
+  <p>The Scoot app is available with riding telemetry. This means it can show you your
+  average speed, how long you've been using the scooter, your traveling distance,
+  and many more things all in an easy to use app.</p>
+
+  <button class="btn-call-to-action"><a href="#">Learn More</a></button>
+
+</section> <!-- .riding-telemetry -->
