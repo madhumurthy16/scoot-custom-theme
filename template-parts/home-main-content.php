@@ -40,16 +40,26 @@
 
 <section class="riding-telemetry">
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg' ?>" alt="Women checking her mobile phone" />
-  <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
-  <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+  <div class="telemetry-img-wrapper">
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg' ?>" alt="Women checking her mobile phone" />
+  </div>
+  <div class="pattern-circle">
+    <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+  </div>
+  <div class="left-downward-arrow">
+    <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+  </div>
 
-  <h2>Easy to use riding telemetry</h2>
+  <div class="telemetry-desc">
 
-  <p>The Scoot app is available with riding telemetry. This means it can show you your
-  average speed, how long you've been using the scooter, your traveling distance,
-  and many more things all in an easy to use app.</p>
+    <h2>Easy to use riding telemetry</h2>
 
-  <button class="btn-call-to-action"><a href="#">Learn More</a></button>
+    <p>The Scoot app is available with riding telemetry. This means it can show you your
+      average speed, how long you've been using the scooter, your traveling distance,
+      and many more things all in an easy to use app.</p>
+
+    <button class="btn-call-to-action telemetry-cta"><a href="#">Learn More</a></button>
+
+  </div> <!-- .telemetry-desc -->
 
 </section> <!-- .riding-telemetry -->
