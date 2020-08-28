@@ -649,16 +649,24 @@ img {
 }
 
 .riding-telemetry .telemetry-img-wrapper {
-	display: flex;
-	justify-content: center;
+	background-image: url('./assets/images/telemetry.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	/*overflow: hidden;*/
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 5.6rem;
-}
-
-.riding-telemetry .telemetry-img-wrapper img {
 	width: 31.1rem;
 	height: 31.1rem;
 	border-radius: 50%;
 }
+
+/*.riding-telemetry .telemetry-img-wrapper img {
+	width: 31.1rem;
+	height: 31.1rem;
+	border-radius: 50%;
+}*/
 
 .riding-telemetry .pattern-circle {
 	display: none;
@@ -677,6 +685,7 @@ img {
 
 .telemetry-desc p {
 	margin-bottom: 3.2rem;
+	padding: 0 1rem;
 }
 
 .telemetry-desc .telemetry-cta {
@@ -960,27 +969,29 @@ h4 {
 		left: 4.05rem;
 		top: -15rem;
 		border: 7.5px solid #E5ECF4;
+		background-color: #E5ECF4;
 		z-index: 1;
 	}
 
 	/* SECTION - RIDING TELEMETRY */
 
 	.riding-telemetry {
-		margin-bottom: 12rem;
+		margin-bottom: 12.8rem;
 	}
 
 	.riding-telemetry .telemetry-img-wrapper {
+		width: 44.5rem;
+		height: 44.5rem;
 		margin-bottom: 5.6rem;
 	}
 
-	.riding-telemetry .telemetry-img-wrapper img {
-		width: 44.5rem;
-		height: 44.5rem;
-		border-radius: 50%;
-	}
-
 	.riding-telemetry .pattern-circle {
-		display: none;
+		display: block;
+		position: absolute;
+		left: 51rem;
+		/*right: -114.5%;*/
+    width: 445px;
+    height: 445px;
 	}
 
 	.riding-telemetry .left-downward-arrow {
@@ -991,18 +1002,18 @@ h4 {
 	}
 
 	.telemetry-desc h2 {
-		margin-bottom: 3.2rem;
+		margin-bottom: 4rem;
 		padding: 0 5.8rem;
 	}
 
 	.telemetry-desc p {
-		margin-bottom: 3.2rem;
+		margin-bottom: 4rem;
+		padding: 0 2rem;
 	}
 
 	.telemetry-desc .telemetry-cta {
 		margin: 0 auto;
 	} .
-
 
 }
 
