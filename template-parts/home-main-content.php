@@ -41,14 +41,14 @@
 <section class="riding-telemetry">
 
   <div class="telemetry-img-wrapper">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg' ?>" alt="Women checking her mobile phone" />
+    <div class="pattern-circle">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+    </div>
+    <div class="left-downward-arrow">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+    </div>
   </div>
-  <div class="pattern-circle">
-    <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
-  </div>
-  <div class="left-downward-arrow">
-    <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
-  </div>
+
 
   <div class="telemetry-desc">
 
