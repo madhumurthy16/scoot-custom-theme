@@ -1234,17 +1234,17 @@ h4 {
     left: -16.7rem;
 	}
 
-	/* SECTION - RIDING TELEMETRY */
+	/* SECTION - RIDING TELEMETR */
 
 	.riding-telemetry {
 		display: flex;
     flex-direction: row-reverse;
+		justify-content: space-between;
 		margin-bottom: 16rem;
 	}
 
 	.riding-telemetry .telemetry-img-wrapper {
-		margin-bottom: 0;
-		margin-right: 0;
+		margin: 0;
 	}
 
 	.riding-telemetry .telemetry-desc {
@@ -1277,10 +1277,59 @@ h4 {
 
 	.telemetry-desc p {
 		margin-bottom: 4rem;
-		padding: 0;
+		padding: 0 1.4rem;
 	}
 
 	.telemetry-desc .telemetry-cta {
+		margin: 0;
+	}
+
+	/* SECTION - CITIES NEAR YOU */
+
+	.cities-near-you {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 16rem;
+	}
+
+	.cities-near-you .near-you-img-wrapper {
+		margin: 0
+	}
+
+	.cities-near-you .cities-desc {
+		width: 445px;
+    height: 313px;
+    text-align: left;
+		padding: 6.6rem 0;
+	}
+
+	.cities-near-you .pattern-circle {
+		display: block;
+		position: absolute;
+		left: 120rem;
+		/*right: -114.5%;*/
+    width: 445px;
+    height: 445px;
+	}
+
+	.cities-near-you .right-arrow {
+		width: 735px;
+	  height: 138px;
+	  position: absolute;
+	  top: 165.5px;
+	}
+
+	.cities-desc h2 {
+		margin-bottom: 2.4rem;
+		padding: 0;
+	}
+
+	.cities-desc p {
+		margin-bottom: 4rem;
+		padding: 0 1.4rem;
+	}
+
+	.cities-desc .cities-cta {
 		margin: 0;
 	}
 }
