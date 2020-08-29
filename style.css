@@ -692,6 +692,50 @@ img {
 	margin: 0 auto;
 }
 
+/* Section - Cities Near You ------------------- */
+
+.cities-near-you {
+	position: relative;
+	margin-bottom: 12rem;
+}
+
+.cities-near-you .near-you-img-wrapper {
+	background-image: url('./assets/images/near-you.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	/*overflow: hidden;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5.6rem;
+	width: 31.1rem;
+	height: 31.1rem;
+	border-radius: 50%;
+}
+
+.cities-near-you .pattern-circle {
+	display: none;
+}
+
+.cities-near-you .right-arrow {
+	width: 735px;
+  height: 138px;
+  position: absolute;
+  top: 165.5px;
+}
+
+.cities-desc h2 {
+	margin-bottom: 3.2rem;
+}
+
+.cities-desc p {
+	margin-bottom: 3.2rem;
+	padding: 0 1rem;
+}
+
+.cities-desc .cities-cta {
+	margin: 0 auto;
+}
 
 
 
