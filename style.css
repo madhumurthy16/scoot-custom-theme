@@ -1061,6 +1061,48 @@ h4 {
 	.telemetry-desc .telemetry-cta {
 		margin: 0 auto;
 	}
+
+	/* SECTION - CITIES NEAR YOU */
+
+	.cities-near-you {
+		margin-bottom: 12.0rem;
+	}
+
+	.cities-near-you .near-you-img-wrapper {
+		width: 44.5rem;
+		height: 44.5rem;
+		margin-bottom: 6.4rem;
+	}
+
+	.cities-near-you .pattern-circle {
+		display: block;
+		position: absolute;
+		left: 51rem;
+		/*right: -114.5%;*/
+    width: 445px;
+    height: 445px;
+	}
+
+	.cities-near-you .right-arrow {
+		width: 735px;
+	  height: 138px;
+	  position: absolute;
+	  top: 165.5px;
+	}
+
+	.cities-desc h2 {
+		margin-bottom: 4rem;
+		padding: 0 5.8rem;
+	}
+
+	.cities-desc p {
+		margin-bottom: 4rem;
+		padding: 0 2rem;
+	}
+
+	.cities-desc .cities-cta {
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 1065px ) {
