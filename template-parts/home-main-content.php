@@ -51,7 +51,6 @@
 
   </div> <!-- .telemetry-img-wrapper -->
 
-
   <div class="telemetry-desc">
 
     <h2>Easy to use riding telemetry</h2>
@@ -101,7 +100,7 @@
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
     </div>
 
-    <div class="right-arrow">
+    <div class="left-downward-arrow">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
     </div>
 
