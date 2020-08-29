@@ -41,13 +41,15 @@
 <section class="riding-telemetry">
 
   <div class="telemetry-img-wrapper">
+
     <div class="pattern-circle">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
     </div>
     <div class="left-downward-arrow">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
     </div>
-  </div>
+
+  </div> <!-- .telemetry-img-wrapper -->
 
 
   <div class="telemetry-desc">
@@ -63,3 +65,58 @@
   </div> <!-- .telemetry-desc -->
 
 </section> <!-- .riding-telemetry -->
+
+<section class="cities-near-you">
+
+  <div class="near-you-img-wrapper">
+
+    <div class="right-arrow">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/right-arrow.svg' ?>" aria-hidden="true" />
+    </div>
+    <div class="pattern-circle">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+    </div>
+
+  </div> <!-- .near-you-img-wrapper -->
+
+  <div class="cities-desc">
+
+    <h2>Coming to a city near you</h2>
+
+    <p>Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure
+       to let us know if you want to see us in your hometown. We’re aiming to let our
+       scooters loose on 23 cities over the coming year.</p>
+
+    <button class="btn-call-to-action cities-cta"><a href="#">Learn More</a></button>
+
+  </div> <!-- .cities-desc -->
+
+</section> <!-- .cities-near-you -->
+
+<section class="payments">
+
+  <div class="payments-img-wrapper">
+
+    <div class="pattern-circle">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+    </div>
+
+    <div class="right-arrow">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+    </div>
+
+  </div> <!-- .payments-img-wrapper -->
+
+  <div class="payments-desc">
+
+    <h2>Zero hassle payments</h2>
+
+    <p>Our payment is as easy as one two three. We accept most credit cards and debit cards.
+  You can also link your PayPal account inside the app. Need to pay later? No worries!
+  You can defer payment for up to a month.</p>
+
+    <button class="btn-call-to-action payments-cta"><a href="#">Learn More</a></button>
+
+  </div> <!-- .payments-desc -->
+
+</section> <!-- .payments -->
