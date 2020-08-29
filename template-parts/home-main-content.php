@@ -91,3 +91,31 @@
   </div> <!-- .cities-desc -->
 
 </section> <!-- .cities-near-you -->
+
+<section class="payments">
+
+  <div class="payments-img-wrapper">
+
+    <div class="pattern-circle">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+    </div>
+
+    <div class="left-downward-arrow">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+    </div>
+
+  </div> <!-- .payments-img-wrapper -->
+
+  <div class="payments-desc">
+
+    <h2>Zero hassle payments</h2>
+
+    <p>Our payment is as easy as one two three. We accept most credit cards and debit cards.
+  You can also link your PayPal account inside the app. Need to pay later? No worries!
+  You can defer payment for up to a month.</p>
+
+    <button class="btn-call-to-action payments-cta"><a href="#">Learn More</a></button>
+
+  </div> <!-- .payments-desc -->
+
+</section> <!-- .payments -->
