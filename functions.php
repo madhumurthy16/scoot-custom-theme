@@ -9,6 +9,7 @@
  * Register Styles
  * Register Scripts
  * Register Menus
+ * Register Sidebars
  */
 
  /**
@@ -137,3 +138,45 @@ if( ! function_exists( 'wp_body_open' )) {
  }
 
  add_action( 'wp_body_open', 'scoot_skip_link', 5 );
+
+ /**
+ * Register widget areas.
+ *
+ */
+
+ function scoot_sidebar_registration() {
+   // Arguments used in all register_sidebar() calls.
+   $shared_args = array(
+     'before_title'  => '<h2 class="widget-title">',
+     'after_title'   => '</h2>',
+     'before_widget' => '<div class="widget %2$s"><div class="widget-content">',
+     'after_widget'  => '</div></div>',
+   );
+
+   // Footer widget #1.
+   register_sidebar(
+    array_merge(
+      $shared_args,
+      array(
+        'name'         => __( 'Footer widgets #1', 'scoot' ),
+        'id'           => 'sidebar-1',
+        'description'  => __( 'Widgets in this area will be displayed in the first column in the footer.', 'scoot' ),
+      )
+    )
+  );
+
+  // Footer widget #2.
+  register_sidebar(
+    array_merge(
+      $shared_args,
+      array(
+        'name'         => __( 'Footer widgets #2', 'scoot' ),
+        'id'           => 'sidebar-2',
+        'description'  => __( 'Widgets in this area will be displayed in the second column in the footer.', 'scoot' ),
+      )
+    )
+  );
+
+ }
+
+add_action( 'widgets_init', 'scoot_sidebar_registration' );
