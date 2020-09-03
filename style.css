@@ -544,13 +544,68 @@ img {
 
 
 #site-footer {
-	background-color: #495567;
 }
 
 .footer-widgets-outer-wrapper {
-	padding: 8.8rem 3.2rem;
+	position: relative;
+	background-color: #495567;
+	padding: 8.8rem 0;
 	color: #fff;
+	overflow: hidden;
 }
+
+.footer-widgets-wrapper {
+	line-height: 0;
+}
+
+.footer-widgets {
+	text-align: center;
+}
+
+.footer-widgets .widget-title {
+	color: #fff;
+	margin-bottom: 4rem;
+}
+
+.footer-widgets .textwidget button {
+	width: 11.357rem;
+	height: 4rem;
+	background: #E5ECF4;
+	border-radius: 4px;
+	/*padding: 5.71px 11.43px 6.43px 11.43px;*/
+}
+
+.footer-widgets .textwidget .btn-appstore {
+	background: url('./assets/icons/app-store.svg');
+	background-size: contain;
+	margin-right: 1.286rem;
+}
+
+.footer-widgets .textwidget .btn-googleplay {
+	width: 13rem;
+	background: url('./assets/icons/google-play.svg');
+	background-size: contain;
+}
+
+.pattern-semi-circles {
+	position: absolute;
+	width: 1153px;
+	/*left: -607px;*/
+	right: -171px;
+	bottom: 0;
+}
+
+
+
+
+/* Footer Credits ---------------------------- */
+
+.footer-credits {
+	background-color: #333A44;
+	color: ;
+	height: 438px;
+}
+
 
 
 /* -------------------------------------------------------------------------- */
