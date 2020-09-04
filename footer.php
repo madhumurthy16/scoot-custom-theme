@@ -44,15 +44,50 @@ $has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
 
     <?php } ?>
 
-    <div class="footer-credits">
+    <div class="footer-credits-wrapper">
 
       <div class="section-inner">
 
-        <a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/scoot.svg' ?>" alt="" aria-hidden="true" /></a>
+        <div class="footer-credits">
+          <a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/scoot.svg' ?>" alt="Scoot logo" ></a>
 
-      </div >
+          <div class="footer-navigation-wrapper">
 
-    </div> <!-- .footer-credits -->
+            <?php if( has_nav_menu( 'footer' ) ) { ?>
+
+              <ul class="footer-menu reset-list-style">
+
+                <?php if( has_nav_menu( 'footer' ) ) {
+                  wp_nav_menu( array (
+                    'container' => '',
+                    'items_wrap' => '%3$s',
+                    'theme_location' => 'footer'
+                    )
+                  );
+                }
+                ?>
+
+              </ul> <!-- .footer-menu -->
+
+            <?php
+          }
+          ?>
+
+          </div> <!-- .footer-navigation-wrapper -->
+
+          <ul class="social-menu">
+
+            <li><a href=""><img src="<?php echo get_template_directory_uri() . '/assets/icons/facebook.svg' ?>" alt="Facebook icon"></a>
+            <li><a href=""><img src="<?php echo get_template_directory_uri() . '/assets/icons/twitter.svg' ?>" alt="Twitter icon"></a>
+            <li><a href=""><img src="<?php echo get_template_directory_uri() . '/assets/icons/instagram.svg' ?>" alt="Instagram icon"></a>
+
+          </ul> <!-- .social-menu -->
+
+        </div> <!-- .footer-credits -->
+
+      </div> <!-- .section-inner -->
+
+    </div> <!-- .footer-credits-wrapper -->
 
 </footer>
 
