@@ -18,21 +18,21 @@ $has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
 
         <div class="footer-widgets-wrapper section-inner">
 
-          <?php if( $has_sidebar_1 ) { ?>
+            <?php if( $has_sidebar_1 ) { ?>
 
-            <div class=footer-widgets>
-              <?php dynamic_sidebar( 'sidebar-1' ); ?>
-            </div>
+              <div class=footer-widgets>
+                <?php dynamic_sidebar( 'sidebar-1' ); ?>
+              </div>
 
-          <?php } ?>
+            <?php } ?>
 
-          <?php if( $has_sidebar_2 ) { ?>
+            <?php if( $has_sidebar_2 ) { ?>
 
-            <div class="footer-widgets">
-              <?php dynamic_sidebar( 'sidebar-2' ); ?>
-            </div>
+              <div class="footer-widgets">
+                <?php dynamic_sidebar( 'sidebar-2' ); ?>
+              </div>
 
-          <?php } ?>
+            <?php } ?>
 
         </div> <!-- .footer-widgets-wrapper -->
 
@@ -49,7 +49,7 @@ $has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
       <div class="section-inner">
 
         <div class="footer-credits">
-          <a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/scoot.svg' ?>" alt="Scoot logo" ></a>
+          <a href="<?php echo esc_url( home_url( '/' )); ?>" class="footer-logo"><img src="<?php echo get_template_directory_uri() . '/assets/scoot.svg' ?>" alt="Scoot logo" ></a>
 
           <div class="footer-navigation-wrapper">
 
