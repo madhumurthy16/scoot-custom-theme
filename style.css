@@ -554,12 +554,16 @@ img {
 	overflow: hidden;
 }
 
-.footer-widgets-wrapper {
+/*.footer-widgets-wrapper {
 	line-height: 0;
-}
+}*/
 
 .footer-widgets {
 	text-align: center;
+}
+
+.footer-widgets .widget_custom_html {
+	line-height: 0;
 }
 
 .footer-widgets .widget-title {
@@ -604,14 +608,11 @@ img {
 	padding-top: 6.4rem;
 	padding-bottom: 8.8rem;
 	background-color: #333A44;
-	color: ;
-	height: 438px;
 }
 
 .footer-credits {
 	display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -636,6 +637,10 @@ img {
 	color: #939CAA;
 }
 
+.footer-menu li a:hover {
+	color: #FCB72B;
+}
+
 .social-menu {
 	display: flex;
 }
@@ -648,8 +653,9 @@ img {
 	margin-right: 0;
 }
 
-
-
+.social-menu li a:hover img {
+	
+}
 
 
 /* -------------------------------------------------------------------------- */
@@ -1301,6 +1307,48 @@ h4 {
 	.payments-desc .payments-cta {
 		margin: 0 auto;
 	}
+
+	/* Site Footer ---------------------------- */
+
+	.footer-widgets-outer-wrapper {
+		padding: 6.2rem 11.5rem;
+	}
+
+	.pattern-semi-circles {
+		right: -16.3rem;
+  }
+
+	.footer-credits-wrapper {
+		padding: 3.4rem 0;
+	}
+
+	.footer-credits {
+		flex-direction: row;
+	  justify-content: space-between;
+		align-items: center;
+	}
+
+	.footer-credits .footer-logo {
+		margin-right: 5.858rem;
+	}
+
+.footer-navigation-wrapper {
+	margin: 0;
+	margin-right: auto;
+}
+
+.footer-menu {
+	display: flex;
+	align-items: center;
+}
+
+.footer-menu li {
+	margin-right: 3.2rem;
+	margin-bottom: 0;
+}
+
+.footer-menu li:last-child {
+	margin-right: 0;
 }
 
 @media (min-width: 1065px ) {
@@ -1363,6 +1411,7 @@ h4 {
 
 
 @media (min-width: 1330px) {
+
 	.hero-image .right-arrow {
 		width: 44.638rem;
 		/*left: 70.5rem;*/
@@ -1412,6 +1461,27 @@ h4 {
 
 	.how-it-works p {
 		padding-right: 2rem;
+	}
+
+	/* Site Footer ---------------------------- */
+
+	.footer-widgets-outer-wrapper {
+		padding: 10.2rem 0;
+	}
+
+	.footer-widgets {
+		text-align: left;
+	}
+
+	.footer-widgets .widget-content {
+		display: flex;
+    justify-content: space-between;
+    align-items: center;
+	}
+
+	.widget-content .widget-title {
+		margin-bottom: 0;
+		width: 37.5%;
 	}
 }
 
