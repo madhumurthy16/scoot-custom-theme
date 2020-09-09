@@ -653,10 +653,10 @@ img {
 	margin-right: 0;
 }
 
-.social-menu li a:hover img {
-	
-}
 
+.social-menu li a:hover .hover-color {
+	fill: #fff;
+}
 
 /* -------------------------------------------------------------------------- */
 
