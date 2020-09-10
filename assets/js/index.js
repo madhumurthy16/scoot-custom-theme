@@ -8,11 +8,3 @@ menuTrigger.addEventListener('click', () => {
   menuTrigger.querySelector("img:nth-of-type(1)").classList.toggle("invisible");
   menuTrigger.querySelector("img:nth-of-type(2)").classList.toggle("invisible");
 });
-
-const socialIcons = document.querySelectorAll('.social-icon');
-
-socialIcons.forEach((icon) => {
-  icon.onmouseover = (e) => {
-    icon.classList.toggle('social-icon-hover');
-  }
-});
