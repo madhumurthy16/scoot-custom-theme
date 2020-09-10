@@ -653,10 +653,13 @@ img {
 	margin-right: 0;
 }
 
-
-.social-menu li a:hover .hover-color {
+.social-menu .social-icon-hover:hover {
 	fill: #fff;
 }
+
+/*.social-menu li a .:hover {
+	fill: #fff;
+}*/
 
 /* -------------------------------------------------------------------------- */
 

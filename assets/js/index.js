@@ -9,8 +9,10 @@ menuTrigger.addEventListener('click', () => {
   menuTrigger.querySelector("img:nth-of-type(2)").classList.toggle("invisible");
 });
 
-const socialIcons = document.querySelectorAll('.social-menu li');
-console.log(socialIcons);
+const socialIcons = document.querySelectorAll('.social-icon');
+
 socialIcons.forEach((icon) => {
-  icon.classList.toggle('hover-color');
+  icon.onmouseover = (e) => {
+    icon.classList.toggle('social-icon-hover');
+  }
 });
