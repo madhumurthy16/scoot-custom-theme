@@ -653,13 +653,11 @@ img {
 	margin-right: 0;
 }
 
-.social-menu .social-icon-hover:hover {
+.social-menu li a svg:hover path {
 	fill: #fff;
+	background: #fff;
 }
 
-/*.social-menu li a .:hover {
-	fill: #fff;
-}*/
 
 /* -------------------------------------------------------------------------- */
 
@@ -936,7 +934,6 @@ img {
 
 
 @media (min-width: 768px) {
-
 
 /* Element Base--------------------------- */
 
@@ -1317,6 +1314,10 @@ h4 {
 		padding: 6.2rem 11.5rem;
 	}
 
+	.footer-widgets .widget-title {
+		padding: 0 2.4rem;
+	}
+
 	.pattern-semi-circles {
 		right: -16.3rem;
   }
@@ -1484,7 +1485,8 @@ h4 {
 
 	.widget-content .widget-title {
 		margin-bottom: 0;
-		width: 37.5%;
+		padding: 0;
+		width: 41.5%;
 	}
 }
 
