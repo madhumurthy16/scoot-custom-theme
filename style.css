@@ -794,10 +794,11 @@ img {
 }
 
 .riding-telemetry .left-downward-arrow {
-	width: 735px;
-  height: 138px;
+	width: 74.1rem;
+  height: 15.1rem;
   position: absolute;
-  top: 165.5px;
+	bottom: 0px;
+	left: -1.1%;
 }
 
 .telemetry-desc h2 {
@@ -1034,11 +1035,6 @@ h4 {
 	color: #FCB72B;
 }
 
-/*.primary-menu .btn-call-to-action {
-	padding-left: 3.9rem;
-	padding-right: 3.9rem;
-}*/
-
 .primary-menu .btn-call-to-action a {
 	color: #fff;
 }
@@ -1049,10 +1045,6 @@ h4 {
 
 
 /* Menu Modal ---------------------------- */
-
-  /*.menu-modal {
-     visibility: hidden;
-   }*/
 
   .site-header-menu-trigger {
      display: none;
@@ -1204,10 +1196,7 @@ h4 {
 	}
 
 	.riding-telemetry .left-downward-arrow {
-		width: 735px;
-	  height: 138px;
-	  position: absolute;
-	  top: 165.5px;
+		left: -20.2%;
 	}
 
 	.telemetry-desc h2 {
@@ -1336,24 +1325,32 @@ h4 {
 		margin-right: 5.858rem;
 	}
 
-.footer-navigation-wrapper {
-	margin: 0;
-	margin-right: auto;
+	.footer-navigation-wrapper {
+		margin: 0;
+		margin-right: auto;
+	}
+
+	.footer-menu {
+		display: flex;
+		align-items: center;
+	}
+
+	.footer-menu li {
+		margin-right: 3.2rem;
+		margin-bottom: 0;
+	}
+
+	.footer-menu li:last-child {
+		margin-right: 0;
+	}
 }
 
-.footer-menu {
-	display: flex;
-	align-items: center;
+@media (min-width: 1024px ) {
+	.riding-telemetry .left-downward-arrow {
+		left: 35%;
+	}
 }
 
-.footer-menu li {
-	margin-right: 3.2rem;
-	margin-bottom: 0;
-}
-
-.footer-menu li:last-child {
-	margin-right: 0;
-}
 
 @media (min-width: 1065px ) {
 	.hero-image .right-arrow {
@@ -1467,7 +1464,160 @@ h4 {
 		padding-right: 2rem;
 	}
 
-	/* Site Footer ---------------------------- */
+	/* SECTION - RIDING TELEMETRY */
+
+	.riding-telemetry {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-bottom: 16rem;
+	}
+
+	.riding-telemetry .telemetry-img-wrapper {
+		margin: 0;
+	}
+
+	.riding-telemetry .telemetry-desc {
+		width: 445px;
+		height: 313px;
+		text-align: left;
+		padding: 6.6rem 0;
+	}
+
+	.riding-telemetry .pattern-circle {
+		display: block;
+		position: absolute;
+		left: 51rem;
+		/*right: -114.5%;*/
+		width: 445px;
+		height: 445px;
+	}
+
+	.riding-telemetry .left-downward-arrow {
+		width: 735px;
+		height: 138px;
+		position: absolute;
+		top: 165.5px;
+	}
+
+	.telemetry-desc h2 {
+		margin-bottom: 2.4rem;
+		padding: 0;
+	}
+
+	.telemetry-desc p {
+		margin-bottom: 4rem;
+		padding-left: 0;
+		padding-right: 2.8rem;
+	}
+
+	.telemetry-desc .telemetry-cta {
+		margin: 0;
+	}
+
+	/* SECTION - CITIES NEAR YOU */
+
+	.cities-near-you {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 16rem;
+	}
+
+	.cities-near-you .near-you-img-wrapper {
+		margin: 0
+	}
+
+	.cities-near-you .cities-desc {
+		width: 445px;
+		height: 313px;
+		text-align: left;
+		padding: 6.6rem 0;
+	}
+
+	.cities-near-you .pattern-circle {
+		display: block;
+		position: absolute;
+		left: 120rem;
+		/*right: -114.5%;*/
+		width: 445px;
+		height: 445px;
+	}
+
+	.cities-near-you .right-arrow {
+		width: 735px;
+		height: 138px;
+		position: absolute;
+		top: 165.5px;
+	}
+
+	.cities-desc h2 {
+		margin-bottom: 2.4rem;
+		padding: 0;
+	}
+
+	.cities-desc p {
+		margin-bottom: 4rem;
+		padding-left: 0;
+		padding-right: 2.8rem;
+	}
+
+	.cities-desc .cities-cta {
+		margin: 0;
+	}
+
+	/* SECTION - PAYMENTS */
+
+	.payments {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-bottom: 20rem;
+	}
+
+	.payments .payments-img-wrapper {
+		margin: 0;
+	}
+
+	.payments .payments-desc {
+		width: 445px;
+		height: 313px;
+		text-align: left;
+		padding: 6.6rem 0;
+	}
+
+	.payments .pattern-circle {
+		display: block;
+		position: absolute;
+		left: 51rem;
+		/*right: -114.5%;*/
+		width: 445px;
+		height: 445px;
+	}
+
+	.payments .left-downward-arrow {
+		width: 735px;
+		height: 138px;
+		position: absolute;
+		top: 165.5px;
+	}
+
+	.payments-desc h2 {
+		margin-bottom: 2.4rem;
+		padding: 0;
+	}
+
+	.payments-desc p {
+		margin-bottom: 4rem;
+		padding-left: 0;
+		padding-right: 2.8rem;
+	}
+
+	.payments-desc .payments-cta {
+		margin: 0;
+	}
+}
+
+/* Site Footer ---------------------------- */
 
 	.footer-widgets-outer-wrapper {
 		padding: 10.2rem 0;
@@ -1506,159 +1656,6 @@ h4 {
 	.how-it-works .accent-border {
     left: -16.7rem;
 	}
-
-	/* SECTION - RIDING TELEMETRY */
-
-	.riding-telemetry {
-		display: flex;
-    flex-direction: row-reverse;
-		justify-content: space-between;
-		margin-bottom: 16rem;
-	}
-
-	.riding-telemetry .telemetry-img-wrapper {
-		margin: 0;
-	}
-
-	.riding-telemetry .telemetry-desc {
-		width: 445px;
-    height: 313px;
-    text-align: left;
-		padding: 6.6rem 0;
-	}
-
-	.riding-telemetry .pattern-circle {
-		display: block;
-		position: absolute;
-		left: 51rem;
-		/*right: -114.5%;*/
-    width: 445px;
-    height: 445px;
-	}
-
-	.riding-telemetry .left-downward-arrow {
-		width: 735px;
-	  height: 138px;
-	  position: absolute;
-	  top: 165.5px;
-	}
-
-	.telemetry-desc h2 {
-		margin-bottom: 2.4rem;
-		padding: 0;
-	}
-
-	.telemetry-desc p {
-		margin-bottom: 4rem;
-		padding-left: 0;
-		padding-right: 2.8rem;
-	}
-
-	.telemetry-desc .telemetry-cta {
-		margin: 0;
-	}
-
-	/* SECTION - CITIES NEAR YOU */
-
-	.cities-near-you {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 16rem;
-	}
-
-	.cities-near-you .near-you-img-wrapper {
-		margin: 0
-	}
-
-	.cities-near-you .cities-desc {
-		width: 445px;
-    height: 313px;
-    text-align: left;
-		padding: 6.6rem 0;
-	}
-
-	.cities-near-you .pattern-circle {
-		display: block;
-		position: absolute;
-		left: 120rem;
-		/*right: -114.5%;*/
-    width: 445px;
-    height: 445px;
-	}
-
-	.cities-near-you .right-arrow {
-		width: 735px;
-	  height: 138px;
-	  position: absolute;
-	  top: 165.5px;
-	}
-
-	.cities-desc h2 {
-		margin-bottom: 2.4rem;
-		padding: 0;
-	}
-
-	.cities-desc p {
-		margin-bottom: 4rem;
-		padding-left: 0;
-		padding-right: 2.8rem;
-	}
-
-	.cities-desc .cities-cta {
-		margin: 0;
-	}
-
-	/* SECTION - PAYMENTS */
-
-	.payments {
-		display: flex;
-    flex-direction: row-reverse;
-		justify-content: space-between;
-		margin-bottom: 20rem;
-	}
-
-	.payments .payments-img-wrapper {
-		margin: 0;
-	}
-
-	.payments .payments-desc {
-		width: 445px;
-    height: 313px;
-    text-align: left;
-		padding: 6.6rem 0;
-	}
-
-	.payments .pattern-circle {
-		display: block;
-		position: absolute;
-		left: 51rem;
-		/*right: -114.5%;*/
-    width: 445px;
-    height: 445px;
-	}
-
-	.payments .left-downward-arrow {
-		width: 735px;
-	  height: 138px;
-	  position: absolute;
-	  top: 165.5px;
-	}
-
-	.payments-desc h2 {
-		margin-bottom: 2.4rem;
-		padding: 0;
-	}
-
-	.payments-desc p {
-		margin-bottom: 4rem;
-		padding-left: 0;
-		padding-right: 2.8rem;
-	}
-
-	.payments-desc .payments-cta {
-		margin: 0;
-	}
-
 }
 
 @media (min-width: 1510px) {
