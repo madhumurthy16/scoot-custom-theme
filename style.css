@@ -821,36 +821,32 @@ img {
 /* Section - Riding Telemetry ------------------ */
 
 .riding-telemetry .left-downward-arrow {
+	position: absolute;
 	width: 74.1rem;
   height: 15.1rem;
-  position: absolute;
 	bottom: -5px;
-	/*right: -426px;
-	right: -137%;*/
 	left: -1.4%;
-
-	/*top: 1840px;
-	left: 08.69%;*/
 }
 
 /* Section - Cities Near You ------------------- */
 
 .cities-near-you .right-arrow {
-	width: 735px;
-  height: 138px;
-  position: absolute;
-  top: 165.5px;
+	position: absolute;
+	width: 73.5rem;
+  height: 15.1rem;
+	left: -68.35%;
+	top: -0.75rem;
 }
-
 
 /* Section - Payments -------------------------- */
 
 .payments .left-downward-arrow {
-	width: 735px;
-  height: 138px;
-  position: absolute;
-  top: 165.5px;
+	position: absolute;
+	width: 74.1rem;
+  height: 15.1rem;
+	left: 30.07%;
 }
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -876,11 +872,14 @@ img {
 	}
 }
 
+
+
 @media (min-width: 640px ) {
 	.hero-content .hero-inner {
 		max-width: 450px;
 	}
 }
+
 
 
 @media (min-width: 768px) {
@@ -1123,6 +1122,48 @@ h4 {
 		z-index: 1;
 	}
 
+	/* SECTIONS - RIDING TELEMETRY
+            	- CITIES NEAR YOU,
+							- PAYMENTS */
+
+
+	.riding-telemetry .telemetry-img-wrapper,
+	.cities-near-you .near-you-img-wrapper,
+	.payments .payments-img-wrapper {
+		max-width: 44.5rem;
+		height: 44.5rem;
+	}
+
+	.telemetry-desc h2,
+	.cities-desc h2,
+	.payments h2 {
+		margin-bottom: 4rem;
+		padding: 0 5.8rem;
+	}
+
+	.telemetry-desc p,
+	.cities-desc p,
+	.payments p {
+		margin-bottom: 4rem;
+		padding: 0 2rem;
+	}
+
+	.telemetry-desc .telemetry-cta,
+	.cities-desc .cities-cta,
+	.payments-desc .payments-cta {
+		margin: 0 auto;
+	}
+
+	.riding-telemetry .pattern-circle,
+	.cities-near-you .pattern-circle,
+	.payments .pattern-circle {
+		display: block;
+		position: absolute;
+    width: 445px;
+    height: 445px;
+	}
+
+
 	/* SECTION - RIDING TELEMETRY */
 
 	.riding-telemetry {
@@ -1130,123 +1171,54 @@ h4 {
 	}
 
 	.riding-telemetry .telemetry-img-wrapper {
-		max-width: 44.5rem;
-		height: 44.5rem;
 		margin-bottom: 5.6rem;
 	}
 
 	.riding-telemetry .pattern-circle {
-		display: block;
-		position: absolute;
-		left: 51rem;
-		/*right: -114.5%;*/
-    width: 445px;
-    height: 445px;
+		transform: translate(509px);
 	}
 
 	.riding-telemetry .left-downward-arrow {
-		/*top: 1709px;
-    left: 05.2%;*/
 		left: -15%;
 	}
 
-	.telemetry-desc h2 {
-		margin-bottom: 4rem;
-		padding: 0 5.8rem;
-	}
 
-	.telemetry-desc p {
-		margin-bottom: 4rem;
-		padding: 0 2rem;
-	}
+	/* SECTIONS - CITIES NEAR YOU,
+							- PAYMENTS */
 
-	.telemetry-desc .telemetry-cta {
-		margin: 0 auto;
-	}
-
-	/* SECTION - CITIES NEAR YOU */
-
-	.cities-near-you {
-		margin-bottom: 12rem;
-	}
-
-	.cities-near-you .near-you-img-wrapper {
-		width: 44.5rem;
-		height: 44.5rem;
-		margin-bottom: 6.4rem;
-	}
-
-	.cities-near-you .pattern-circle {
-		display: block;
-		position: absolute;
-		left: 51rem;
-		/*right: -114.5%;*/
-    width: 445px;
-    height: 445px;
-	}
-
-	.cities-near-you .right-arrow {
-		width: 735px;
-	  height: 138px;
-	  position: absolute;
-	  top: 165.5px;
-	}
-
-	.cities-desc h2 {
-		margin-bottom: 4rem;
-		padding: 0 5.8rem;
-	}
-
-	.cities-desc p {
-		margin-bottom: 4rem;
-		padding: 0 2rem;
-	}
-
-	.cities-desc .cities-cta {
-		margin: 0 auto;
-	}
-
-	/* SECTION - PAYMENTS */
-
+	.cities-near-you,
 	.payments {
 		margin-bottom: 12rem;
 	}
 
+	.cities-near-you .near-you-img-wrapper,
 	.payments .payments-img-wrapper {
-		width: 44.5rem;
-		height: 44.5rem;
 		margin-bottom: 6.4rem;
 	}
 
+
+	/* SECTION - CITIES NEAR YOU */
+
+	.cities-near-you .pattern-circle {
+		transform: translate(-509px);
+	}
+
+	.cities-near-you .right-arrow {
+		left: -56.5%;
+	}
+
+
+	/* SECTION - PAYMENTS */
+
 	.payments .pattern-circle {
-		display: block;
-		position: absolute;
-		left: 51rem;
-		/*right: -114.5%;*/
-    width: 445px;
-    height: 445px;
+		transform: translate(509px);
 	}
 
 	.payments .left-downward-arrow {
-		width: 735px;
-	  height: 138px;
-	  position: absolute;
-	  top: 165.5px;
+		left: 56%;
+		top: 8.5rem;
 	}
 
-	.payments-desc h2 {
-		margin-bottom: 4rem;
-		padding: 0 5.8rem;
-	}
-
-	.payments-desc p {
-		margin-bottom: 4rem;
-		padding: 0 2rem;
-	}
-
-	.payments-desc .payments-cta {
-		margin: 0 auto;
-	}
 
 	/* Site Footer ---------------------------- */
 
@@ -1295,6 +1267,8 @@ h4 {
 		margin-right: 0;
 	}
 }
+
+
 
 @media (min-width: 900px ) {
 	.riding-telemetry .left-downward-arrow {
