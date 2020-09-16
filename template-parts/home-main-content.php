@@ -42,6 +42,8 @@
 
   <div class="telemetry-img-wrapper">
 
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg'?>"  class="telemetry" aria-hidden="true" />
+
     <div class="pattern-circle">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
     </div>
@@ -69,6 +71,8 @@
 
   <div class="near-you-img-wrapper">
 
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/near-you.jpg' ?>" class="near-you" aria-hidden="true" />
+
     <div class="right-arrow">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/right-arrow.svg' ?>" aria-hidden="true" />
     </div>
@@ -95,6 +99,8 @@
 <section class="payments">
 
   <div class="payments-img-wrapper">
+
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/payments.jpg' ?>" class="payments" aria-hidden="true" />
 
     <div class="pattern-circle">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
