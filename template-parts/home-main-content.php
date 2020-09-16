@@ -42,14 +42,14 @@
 
   <div class="telemetry-img-wrapper">
 
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg'?>"  class="telemetry" aria-hidden="true" />
-
     <div class="pattern-circle">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
     </div>
     <div class="left-downward-arrow">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
     </div>
+
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/telemetry.jpg'?>"  class="telemetry" aria-hidden="true" />
 
   </div> <!-- .telemetry-img-wrapper -->
 
@@ -71,14 +71,16 @@
 
   <div class="near-you-img-wrapper">
 
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/near-you.jpg' ?>" class="near-you" aria-hidden="true" />
+    <div class="pattern-circle">
+      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+    </div>
 
     <div class="right-arrow">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/right-arrow.svg' ?>" aria-hidden="true" />
     </div>
-    <div class="pattern-circle">
-      <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
-    </div>
+
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/near-you.jpg' ?>" class="near-you" aria-hidden="true" />
+
 
   </div> <!-- .near-you-img-wrapper -->
 
@@ -100,8 +102,6 @@
 
   <div class="payments-img-wrapper">
 
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/payments.jpg' ?>" class="payments" aria-hidden="true" />
-
     <div class="pattern-circle">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
     </div>
@@ -109,6 +109,9 @@
     <div class="left-downward-arrow">
       <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
     </div>
+
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/payments.jpg' ?>" class="payments" aria-hidden="true" />
+
 
   </div> <!-- .payments-img-wrapper -->
 
