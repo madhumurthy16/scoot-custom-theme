@@ -20,10 +20,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  	3. 	Helper Classes
  	4. 	Site Header
  	5. 	Menu Modal
- 	6. Error 404
- 	7. Widgets
- 	8. Site Footer
- 	9. Media Queries
+ 	6.  Error 404
+ 	7.  Widgets
+ 	8.  Site Footer
+	9.  Home Page
+	10. Page Hero
+	11. About Page
+ 	12.  Media Queries
 
  ----------------------------------------------------------------------------- */
 
@@ -851,6 +854,51 @@ img {
 
 /* -------------------------------------------------------------------------- */
 
+/*	9. Page Hero
+/* -------------------------------------------------------------------------- */
+
+
+.page-hero {
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 6rem 0;
+	z-index: 50;
+}
+
+.page-hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-hero-content .page-hero-title {
+	color: #fff;
+}
+
+.page-hero-content .page-hero-pattern {
+	display: none;
+}
+
+/* About - Page Hero ------------------------- */
+
+.about-hero {
+	background-image: url( './assets/images/about-hero-mobile.jpg' );
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	10. About Page
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
 /*	15. Media Queries
 /* -------------------------------------------------------------------------- */
 
@@ -865,10 +913,20 @@ img {
  	 		width: calc(100% - 8rem);
  	}*/
 
-/* Home Page ------------------------------ */
+  /* Home Page ------------------------------ */
+
+	/* HERO */
 
 	.hero-image {
 		background-image: url('./assets/images/home-hero-tablet.jpg');
+	}
+
+	/* About Page ----------------------------- */
+
+	/* HERO */
+
+	.about-hero {
+		background-image: url( './assets/images/about-hero-tablet.jpg' );
 	}
 }
 
@@ -1223,6 +1281,36 @@ h4 {
 	.payments .left-downward-arrow {
 		left: 56%;
 		top: 8.5rem;
+	}
+
+	/* Page Hero - About
+							 - Careers
+							 - Locations
+	------------------------------------------- */
+
+	.page-hero {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.page-hero-content {
+		justify-content: space-between;
+	}
+
+	.page-hero-content .page-hero-pattern  {
+		display: block;
+		position: absolute;
+    width: 23.4rem;
+    right: -31px;
+	}
+
+
+	/* About Page ----------------------------- */
+
+	/* HERO */
+
+	.about-hero {
+		background-image: url( './assets/images/about-hero-desktop.jpg' );
 	}
 
 
