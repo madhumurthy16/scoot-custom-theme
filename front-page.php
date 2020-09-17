@@ -1,4 +1,8 @@
 <?php
+/**
+* The template for displaying the front page.
+*
+*/
 
 get_header();
 
