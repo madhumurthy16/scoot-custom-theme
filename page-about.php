@@ -15,6 +15,7 @@ get_template_part( 'template-parts/page-hero');
   <main id="main-content" class="section-inner content-inner" role="main">
 
     <section class="digital-era">
+
       <div class="digital-era-img-wrapper">
 
         <div class="pattern-circle">
