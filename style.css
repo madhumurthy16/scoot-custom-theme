@@ -231,7 +231,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: Space Mono, sans-serif;
+	font-family: 'Space Mono', sans-serif;
   font-weight: 700;
   color: #495567;
   /*margin: 3.5rem 0 2rem;*/
@@ -952,6 +952,68 @@ img {
 	top: -0.75rem;
 }
 
+/* Section - Our Values ------------------------ */
+
+.our-values {
+	margin-bottom: 14.5rem;
+}
+
+.our-values h2 {
+	margin-bottom: 6.4rem;
+}
+
+.our-values .tech,
+.our-values .integrity {
+	margin-bottom: 5.5rem;
+}
+
+
+.our-values .tech .img-tech,
+.our-values .integrity .img-integrity,
+.our-values .community .img-community {
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.our-values .tech span,
+.our-values .integrity span,
+.our-values .community span {
+	width: 9.6rem;
+	height: 9.6rem;
+	font-family: 'Space Mono', sans-serif;
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	letter-spacing: -1.07;
+	border-radius: 50%;
+	background-color: #FCB72B;
+  color: #495567;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transform: translateY(-50%);*
+}
+
+.our-values .tech p,
+.our-values .integrity p,
+.our-values .community p {
+	padding: 0 0.9rem;
+}
+
+
+.our-values .tech h3,
+.our-values .integrity h3,
+.our-values .community h3 {
+	margin-top: -1.6rem;
+	margin-bottom: 2.7rem;
+}
+
+
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -1083,7 +1145,7 @@ h4 {
 }
 
 .primary-menu li {
-	font-family: Space Mono;
+	font-family: 'Space Mono', sans-serif;
 	font-weight: bold;
 	font-size: 15px;
 	line-height: 25px;
