@@ -894,6 +894,63 @@ img {
 /* -------------------------------------------------------------------------- */
 
 
+.digital-era,
+.better-living {
+	margin-bottom: 12rem;
+}
+
+.digital-era .digital-era-img-wrapper,
+.better-living .better-living-img-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5.6rem;
+	width: 100%;
+	max-width: 31.1rem;
+	height: 31.1rem;
+	position: relative;
+}
+
+.digital-era .digital-era-img-wrapper .img-digital-era,
+.better-living .better-living-img-wrapper .img-better-living {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.digital-era .pattern-circle,
+.better-living .pattern-circle {
+	display: none;
+}
+
+.digital-era-desc h2,
+.better-living-desc h2 {
+	margin-bottom: 3.2rem;
+}
+
+.digital-era-desc p,
+.better-living-desc p {
+	margin-bottom: 3.2rem;
+	padding: 0 1rem;
+}
+
+/* Section - Digital Era ----------------------- */
+
+.digital-era .left-upward-arrow {
+	position: absolute;
+	width: 74.1rem;
+  height: 15.1rem;
+	bottom: 32.5px;
+	left: -1.4%;
+}
+
+/* Section - Better Living --------------------- */
+
+.better-living .right-arrow {
+	position: absolute;
+	width: 73.5rem;
+  height: 15.1rem;
+	left: -46.66%;
+	top: -0.75rem;
+}
 
 
 
