@@ -1,3 +1,5 @@
+// Toggle mobile navigation
+
 const menuTrigger = document.querySelector('.site-header-menu-trigger');
 const menuModal = document.querySelector('.menu-modal');
 const overlay = document.querySelector('.mobile-overlay');
@@ -7,4 +9,23 @@ menuTrigger.addEventListener('click', () => {
   menuModal.classList.toggle('site-header-menu-active');
   menuTrigger.querySelector("img:nth-of-type(1)").classList.toggle("invisible");
   menuTrigger.querySelector("img:nth-of-type(2)").classList.toggle("invisible");
+});
+
+// Toggle faq answer
+
+const faqs = document.querySelectorAll('.faq');
+
+faqs.forEach(faq => {
+  const faqToggleAnswer = faq.querySelector('.faq-toggle-answer');
+
+  faqToggleAnswer.onclick = (e) => {
+
+    faqs.forEach(item => {
+      if(item !== faq) {
+        item.classList.remove('show-answer');
+      }
+    });
+
+    faq.classList.toggle('show-answer');
+  }
 });
