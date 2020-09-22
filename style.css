@@ -964,7 +964,7 @@ img {
 
 .our-values .tech,
 .our-values .integrity {
-	margin-bottom: 5.5rem;
+	margin-bottom: 5.6rem;
 }
 
 
@@ -1008,6 +1008,53 @@ img {
 .our-values .community h3 {
 	margin-top: -1.6rem;
 	margin-bottom: 2.7rem;
+}
+
+/* Section - FAQs ------------------------------ */
+
+.faqs {
+	margin-bottom: 12rem;
+}
+
+.faqs h2 {
+	margin-bottom: 4.8rem;
+}
+
+.faqs .faq-how-it-works {
+	margin-bottom: 4.8rem;
+}
+
+.faqs h3 {
+	margin-bottom: 3.2rem;
+}
+
+.faqs .faq {
+	background-color: #F2F5F9;
+	margin-bottom: 1.6rem;
+	padding: 3.2rem;
+	padding-right: 2.8rem;
+}
+
+.faq .faq-question {
+	display: flex;
+  justify-content: space-between;
+}
+
+.faq .faq-question h4 {
+	text-align: left;
+	padding-right: 1rem;
+}
+
+.faqs .faq .open-close-answer {
+	align-self: center;
+}
+
+.faqs .faq .faq-answer {
+	display: none;
+}
+
+.faqs .show-answer .faq-answer {
+	display: block;
 }
 
 
