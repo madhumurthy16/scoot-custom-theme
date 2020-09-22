@@ -125,7 +125,7 @@ get_template_part( 'template-parts/page-hero');
 
           <div class="faq-question">
             <h4>How do I download the app?</h4>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" class="open-close-answer" alt="Chevron icon to open faq answers " aria-hidden="true" />
+            <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
           </div>
 
           <p class="faq-answer">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores.
@@ -138,7 +138,7 @@ get_template_part( 'template-parts/page-hero');
 
           <div class="faq-question">
             <h4>Can I find a nearby Scoots?</h4>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" class="open-close-answer" alt="Chevron icon to open faq answers " aria-hidden="true" />
+            <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
           </div>
 
           <p class="faq-answer">Definitely! Simply open up the app and allow us to find your location while using it. We'll
@@ -150,7 +150,7 @@ get_template_part( 'template-parts/page-hero');
 
           <div class="faq-question">
             <h4>Do I need a license to ride?</h4>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" class="open-close-answer" alt="Chevron icon to open faq answers " aria-hidden="true" />
+            <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
           </div>
 
           <p class="faq-answer">Yup! We provide information inside the app regarding local laws and the license you need to be
@@ -169,7 +169,7 @@ get_template_part( 'template-parts/page-hero');
           <div class="faq-question">
 
             <h4>Should I wear a helmet?</h4>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" class="open-close-answer" alt="Chevron icon to open faq answers " aria-hidden="true" />
+            <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
 
           </div>
 
@@ -183,7 +183,7 @@ get_template_part( 'template-parts/page-hero');
 
           <div class="faq-question">
             <h4>How about the rules & regulations?</h4>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" class="open-close-answer" alt="Chevron icon to open faq answers " aria-hidden="true" />
+            <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
 
           </div>
 
@@ -196,7 +196,7 @@ get_template_part( 'template-parts/page-hero');
        <article class="faq">
           <div class="faq-question">
             <h4>What if I damage my Scoot?</h4>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" class="open-close-answer" alt="Chevron icon to open faq answers " aria-hidden="true" />
+            <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
           </div>
 
           <p class="faq-answer">Be sure to read our terms and conditions carefully. Not the most fun job we know but we make
