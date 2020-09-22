@@ -1045,16 +1045,23 @@ img {
 	padding-right: 1rem;
 }
 
-.faqs .faq .open-close-answer {
+.faqs .faq .faq-toggle-answer {
 	align-self: center;
 }
 
 .faqs .faq .faq-answer {
 	display: none;
+	text-align: left;
 }
 
 .faqs .show-answer .faq-answer {
 	display: block;
+	margin-top: 2.4rem;
+	padding-right: 1.54rem;
+}
+
+.faqs .show-answer .faq-toggle-answer img {
+	transform: rotate(180deg);
 }
 
 
