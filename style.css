@@ -928,7 +928,7 @@ img {
 
 .digital-era-desc p,
 .better-living-desc p {
-	margin-bottom: 3.2rem;
+	/*margin-bottom: 3.2rem;*/
 	padding: 0 1rem;
 }
 
@@ -992,6 +992,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 1.6rem;
 
 	transform: translateY(-50%);*
 }
@@ -1006,7 +1007,7 @@ img {
 .our-values .tech h3,
 .our-values .integrity h3,
 .our-values .community h3 {
-	margin-top: -1.6rem;
+	margin-top: -4.8rem;
 	margin-bottom: 2.7rem;
 }
 
@@ -1063,9 +1064,6 @@ img {
 .faqs .show-answer .faq-toggle-answer img {
 	transform: rotate(180deg);
 }
-
-
-
 
 
 
@@ -1484,6 +1482,101 @@ h4 {
 
 	.about-hero {
 		background-image: url( './assets/images/about-hero-desktop.jpg' );
+	}
+
+	.digital-era .digital-era-img-wrapper,
+	.better-living .better-living-img-wrapper {
+		max-width: 44.5rem;
+		height: 44.5rem;
+	}
+
+	.digital-era .pattern-circle,
+	.better-living .pattern-circle {
+		display: block;
+    position: absolute;
+    width: 445px;
+    height: 445px;
+
+		transform: translate(114.6%);
+	}
+
+	.digital-era-desc h2,
+	.better-living-desc h2 {
+		margin-bottom: 4rem;
+	}
+
+	.digital-era-desc p,
+	.better-living-desc p {
+		padding: 0 1.5rem;
+	}
+
+	/* SECTION - DIGITAL ERA */
+
+	.digital-era .left-upward-arrow {
+		left: -28%;
+	}
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
+		left: -59.5%;
+		top: 0;
+	}
+
+	/* SECTION - OUR VALUES */
+
+	.our-values {
+		margin-bottom: 12rem;
+	}
+
+	.our-values h2 {
+		margin-bottom: 10.5rem;
+	}
+
+	.our-values .tech,
+	.our-values .integrity {
+		margin-bottom: 5.5rem;
+	}
+
+	.our-values .tech span,
+	.our-values .integrity span,
+	.our-values .community span {
+		margin-bottom: 3.2rem;
+	}
+
+	.our-values .tech p,
+	.our-values .integrity p,
+	.our-values .community p {
+		padding: 0 7rem;
+	}
+
+	/* SECTION - FAQS */
+
+	.faqs h2 {
+		margin-bottom: 6.4rem;
+	}
+
+	.faqs .faq-how-it-works {
+		margin-bottom: 6.4rem;
+	}
+
+	.faqs .faq {
+		margin-bottom: 2.4rem;
+		padding: 3.2rem;
+		padding-right: 2.8rem;
+	}
+
+	.faq .faq-question h4 {
+		text-align: left;
+		padding-right: 1rem;
+	}
+
+	.faqs .faq {
+		padding: 3.2rem 3.2rem 3.2rem 4rem;
+	}
+
+	.faqs .show-answer .faq-answer {
+		padding-right: 3.6rem;
 	}
 
 
