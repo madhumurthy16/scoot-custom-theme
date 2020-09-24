@@ -1482,6 +1482,7 @@ h4 {
 
 	.about-hero {
 		background-image: url( './assets/images/about-hero-desktop.jpg' );
+		margin-bottom: 14.4rem;
 	}
 
 	.digital-era .digital-era-img-wrapper,
@@ -1496,8 +1497,6 @@ h4 {
     position: absolute;
     width: 445px;
     height: 445px;
-
-		transform: translate(114.6%);
 	}
 
 	.digital-era-desc h2,
@@ -1516,11 +1515,19 @@ h4 {
 		left: -28%;
 	}
 
+	.digital-era .pattern-circle {
+		transform: translate(114.6%);
+	}
+
 	/* SECTION - BETTER LIVING */
 
 	.better-living .right-arrow {
 		left: -59.5%;
 		top: 0;
+	}
+
+	.better-living .pattern-circle {
+		transform: translate(-114.6%);
 	}
 
 	/* SECTION - OUR VALUES */
@@ -1629,8 +1636,22 @@ h4 {
 }
 
 
+@media (min-width: 788px ) {
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - DIGITAL ERA */
+
+	.digital-era .left-upward-arrow {
+		left: 0;
+	}
+}
+
+
 
 @media (min-width: 900px ) {
+
+	/* Home Page ------------------------------ */
 
 	.riding-telemetry .left-downward-arrow {
 		left: 0;
@@ -1640,25 +1661,53 @@ h4 {
 		left: -70%;
 	}
 
+	/* About Page ----------------------------- */
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
+		left: -70%;
+	}
+
 }
 
 
 @media (min-width: 1024px ) {
 
+	/* Home Page ------------------------------ */
+
 	.riding-telemetry .left-downward-arrow {
 		left: 35%;
 	}
 
+	/* About Page ----------------------------- */
+
+	/* SECTION - DIGITAL ERA */
+
+	.digital-era .left-upward-arrow {
+		left: 35%;
+	}
 
 }
 
 
 @media (min-width: 1065px ) {
+
+	/* Home Page ------------------------------ */
+
 	.hero-image .right-arrow {
 		left: 0;
 	}
 
 	.cities-near-you .right-arrow {
+		left: -85%;
+	}
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
 		left: -85%;
 	}
 }
@@ -1718,9 +1767,19 @@ h4 {
 	.cities-near-you .right-arrow {
 		left: -92%;
 	}
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
+		left: -92%;
+	}
 }
 
 @media (min-width: 1269px) {
+
+	/* Home Page ------------------------------ */
 
 	/* SECTIONS - RIDING TELEMETRY
 							- CITIES NEAR YOU,
@@ -1744,9 +1803,10 @@ h4 {
 	.cities-near-you .cities-desc,
 	.payments .payments-desc {
 		width: 445px;
-		height: 313px;
+		/*height: 313px;*/
 		text-align: left;
-		padding: 6.6rem 0;
+		align-self: center;
+		/*padding: 6.6rem 0;*/
 	}
 
 	.telemetry-desc h2,
@@ -1793,8 +1853,70 @@ h4 {
 		flex-direction: row-reverse;
 		margin-bottom: 20rem;
 	}
-}
 
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - HERO */
+
+	.about-hero {
+		margin-bottom: 12rem;
+	}
+
+	/* SECTIONS - DIGITAL ERA,
+							- BETTER LIVING */
+
+	.digital-era,
+	.better-living {
+		display: flex;
+		justify-content: space-between;
+	}
+
+  .digital-era .digital-era-img-wrapper,
+	.better-living .better-living-img-wrapper {
+		margin: 0;
+	}
+
+	.digital-era .digital-era-desc,
+	.better-living .better-living-desc {
+		width: 445px;
+		/*height: 313px;*/
+		text-align: left;
+		align-self: center;
+		/*padding: 12.5rem 0;*/
+	}
+
+	.digital-era-desc p,
+	.better-living-desc p {
+		padding-left: 0;
+		padding-right: 2.8rem;
+	}
+
+	/* SECTION - DIGITAL ERA */
+
+	.digital-era {
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+
+	.digital-era .left-upward-arrow {
+		left: -20%;
+		bottom: 18px;
+	}
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
+		left: -58.62%;
+	}
+
+	/* SECTION - OUR VALUES */
+
+	.our-values h2 {
+		margin-bottom: 10.3rem;
+	}
+
+}
 
 
 @media (min-width: 1330px) {
@@ -1876,6 +1998,8 @@ h4 {
 
 @media (min-width: 1440px) {
 
+	/* Home Page ------------------------------ */
+
 	.hero-image .right-arrow {
 		/*width: 44.638rem;*/
 		/*left: 70.5rem;*/
@@ -1894,6 +2018,20 @@ h4 {
 
 	.riding-telemetry .left-downward-arrow {
 	  left: 49%;
+	}
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - DIGITAL ERA */
+
+	.digital-era .pattern-circle {
+		transform: translateX(116%);
+	}
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .pattern-circle {
+		transform: translateX(-116%);
 	}
 
 }
