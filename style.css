@@ -1101,6 +1101,15 @@ img {
 	}
 }
 
+@media (min-width: 599px) {
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
+		left: -74%;
+	}
 
 
 @media (min-width: 640px ) {
@@ -1715,9 +1724,9 @@ h4 {
 
 @media (min-width: 1200px) {
 
-	.section-inner
-	/*.content-inner */{
-		 width: calc(100% - 33.4rem);
+	.section-inner {
+		 /*width: calc(100% - 33.4rem);*/
+		 width: calc(100% - 33rem)
 	}
 
 	.content-inner {
@@ -1912,10 +1921,61 @@ h4 {
 
 	/* SECTION - OUR VALUES */
 
-	.our-values h2 {
-		margin-bottom: 10.3rem;
+	.our-values {
+		display: flex;
+		flex-wrap: wrap;
 	}
 
+	.our-values .tech,
+	.our-values .integrity,
+	.our-values .community {
+		width: 31.5%;
+		/*margin-right: 3rem;*/
+		margin-right: 2.7%;
+	}
+
+	.our-values .community {
+		margin-right: 0;
+	}
+
+	.our-values h2 {
+		margin-bottom: 10.3rem;
+		order: -1;
+		flex: 1 0 100%; /* flex-grow, flex-shrink, flex-basis */
+	}
+
+	.our-values .tech p,
+	.our-values .integrity p,
+	.our-values .community p {
+		padding: 0 0.9rem;
+	}
+
+	/* SECTION - FAQS */
+
+	.faqs .faq-how-it-works,
+	.faqs .faq-safe-driving {
+		display: grid;
+		grid-template-columns: 350px 1fr;
+		grid-column-gap: 3rem;
+	}
+
+	.faq-how-it-works > article,
+	.faq-safe-driving > article {
+		grid-column: 2;
+	}
+
+	.faqs .faq {
+		padding: 3.2rem 4rem;
+	}
+
+	.faq-how-it-works h3,
+	.faq-safe-driving h3 {
+		text-align: left;
+	}
+
+	.faqs .show-answer .faq-answer {
+		padding-right: 5rem;
+	}
 }
 
 
