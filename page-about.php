@@ -12,6 +12,8 @@ get_template_part( 'template-parts/page-hero');
 
 <div class="container">
 
+  <div class="mobile-overlay"></div>
+
   <main id="main-content" role="main">
 
     <div class="section-inner content-inner">
