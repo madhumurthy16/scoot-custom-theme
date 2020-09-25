@@ -26,7 +26,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	9.  Home Page
 	10. Page Hero
 	11. About Page
- 	12.  Media Queries
+	12. Careers Page
+ 	13.  Media Queries
 
  ----------------------------------------------------------------------------- */
 
@@ -886,11 +887,18 @@ img {
 	margin-bottom: 7.2rem;
 }
 
+/* Careers, Locations - Page Hero ------------ */
+
+.careers-hero,
+.locations-hero {
+	background-image: url( './assets/images/careers-location-hero-mobile.jpg' );
+	margin-bottom: 7.2rem;
+}
 
 
 /* -------------------------------------------------------------------------- */
 
-/*	10. About Page
+/*	11. About Page
 /* -------------------------------------------------------------------------- */
 
 
@@ -1066,6 +1074,13 @@ img {
 }
 
 
+/* -------------------------------------------------------------------------- */
+
+/*	10. Careers Page
+/* -------------------------------------------------------------------------- */
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -1092,12 +1107,19 @@ img {
 		background-image: url('./assets/images/home-hero-tablet.jpg');
 	}
 
-	/* About Page ----------------------------- */
+	/* Page Hero----------------------------- */
 
-	/* HERO */
+	/* ABOUT PAGE - HERO */
 
 	.about-hero {
 		background-image: url( './assets/images/about-hero-tablet.jpg' );
+	}
+
+	/* CAREERS,LOCATION PAGE - HERO */
+
+	.careers-hero,
+	.location-hero {
+		background-image: url( './assets/images/careers-locations-hero-tablet.jpg' );
 	}
 }
 
@@ -1110,6 +1132,7 @@ img {
 	.better-living .right-arrow {
 		left: -74%;
 	}
+}
 
 
 @media (min-width: 640px ) {
@@ -1471,6 +1494,7 @@ h4 {
 	.page-hero {
 		position: relative;
 		overflow: hidden;
+		padding: 7.2rem 0;
 	}
 
 	.page-hero-content {
@@ -1484,13 +1508,18 @@ h4 {
     right: -31px;
 	}
 
-
-	/* About Page ----------------------------- */
-
-	/* HERO */
+	/* ABOUT PAGE - HERO */
 
 	.about-hero {
-		background-image: url( './assets/images/about-hero-desktop.jpg' );
+		/*background-image: url( './assets/images/about-hero-desktop.jpg' );*/
+		margin-bottom: 14.4rem;
+	}
+
+	/* CAREERS,LOCATION PAGE - HERO */
+
+	.careers-hero,
+	.location-hero {
+		/*background-image: url( './assets/images/careers-locations-hero-desktop.jpg' );*/
 		margin-bottom: 14.4rem;
 	}
 
@@ -1645,7 +1674,25 @@ h4 {
 }
 
 
-@media (min-width: 788px ) {
+@media (min-width: 769px) {
+
+	/* ABOUT PAGE - HERO */
+
+	.about-hero {
+		background-image: url( './assets/images/about-hero-desktop.jpg' );
+	}
+
+	/* CAREERS,LOCATION PAGE - HERO */
+
+	.careers-hero,
+	.location-hero {
+		background-image: url( './assets/images/careers-locations-hero-desktop.jpg' );
+	}
+
+}
+
+
+@media (min-width: 788px) {
 
 	/* About Page ----------------------------- */
 
