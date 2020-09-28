@@ -895,11 +895,99 @@ img {
 	margin-bottom: 7.2rem;
 }
 
+/* -------------------------------------------------------------------------- */
+
+/*	11. About Page and Careers Page
+/* -------------------------------------------------------------------------- */
+
+/* Sections - Our Values (About page)
+						- Why Join Us ( Careers page)
+------------------------------------------------ */
+
+
+.our-values,
+.why-join-us {
+	margin-bottom: 14.5rem;
+}
+
+.our-values h2,
+.why-join-us h2 {
+	margin-bottom: 6.4rem;
+}
+
+.our-values .tech,
+.our-values .integrity,
+.why-join-us .tech,
+.why-join-us .integrity {
+	margin-bottom: 5.6rem;
+}
+
+
+.our-values .tech .img-tech,
+.our-values .integrity .img-integrity,
+.our-values .community .img-community,
+.why-join-us .tech .img-tech,
+.why-join-us .integrity .img-integrity,
+.why-join-us .community .img-community {
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.our-values .tech span,
+.our-values .integrity span,
+.our-values .community span,
+.why-join-us .tech span,
+.why-join-us .integrity span,
+.why-join-us .community span {
+	width: 9.6rem;
+	height: 9.6rem;
+	font-family: 'Space Mono', sans-serif;
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	letter-spacing: -1.07;
+	border-radius: 50%;
+	background-color: #FCB72B;
+  color: #495567;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1.6rem;
+
+	transform: translateY(-50%);*
+}
+
+.our-values .tech p,
+.our-values .integrity p,
+.our-values .community p,
+.why-join-us .tech p,
+.why-join-us .integrity p,
+.why-join-us .community p {
+	padding: 0 0.9rem;
+}
+
+.our-values .tech h3,
+.our-values .integrity h3,
+.our-values .community h3,
+.why-join-us .tech h3,
+.why-join-us .integrity h3,
+.why-join-us .community h3 {
+	margin-top: -4.8rem;
+	margin-bottom: 2.7rem;
+}
+
+
+
 
 /* -------------------------------------------------------------------------- */
 
 /*	11. About Page
 /* -------------------------------------------------------------------------- */
+
+/* Sections - Digital Era
+						- Better Living
+------------------------------------------------ */
 
 
 .digital-era,
@@ -958,65 +1046,6 @@ img {
   height: 15.1rem;
 	left: -46.66%;
 	top: -0.75rem;
-}
-
-/* Section - Our Values ------------------------ */
-
-.our-values {
-	margin-bottom: 14.5rem;
-}
-
-.our-values h2 {
-	margin-bottom: 6.4rem;
-}
-
-.our-values .tech,
-.our-values .integrity {
-	margin-bottom: 5.6rem;
-}
-
-
-.our-values .tech .img-tech,
-.our-values .integrity .img-integrity,
-.our-values .community .img-community {
-	margin: 0 auto;
-	border-radius: 50%;
-}
-
-.our-values .tech span,
-.our-values .integrity span,
-.our-values .community span {
-	width: 9.6rem;
-	height: 9.6rem;
-	font-family: 'Space Mono', sans-serif;
-	font-weight: 700;
-	font-size: 2.4rem;
-	line-height: 2.8rem;
-	letter-spacing: -1.07;
-	border-radius: 50%;
-	background-color: #FCB72B;
-  color: #495567;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 1.6rem;
-
-	transform: translateY(-50%);*
-}
-
-.our-values .tech p,
-.our-values .integrity p,
-.our-values .community p {
-	padding: 0 0.9rem;
-}
-
-
-.our-values .tech h3,
-.our-values .integrity h3,
-.our-values .community h3 {
-	margin-top: -4.8rem;
-	margin-bottom: 2.7rem;
 }
 
 /* Section - FAQs ------------------------------ */
@@ -1080,7 +1109,51 @@ img {
 /* -------------------------------------------------------------------------- */
 
 
+/* Section - Join Us --------------------------- */
 
+.join-us {
+	margin-bottom: 12rem;
+}
+
+.join-us .join-us-img-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5.6rem;
+	width: 100%;
+	max-width: 31.1rem;
+	height: 31.1rem;
+	position: relative;
+}
+
+.join-us .join-us-img-wrapper .join-us {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.join-us .left-downward-arrow {
+	position: absolute;
+	width: 74.1rem;
+  height: 15.1rem;
+	bottom: -5px;
+	left: -1.4%;
+}
+
+.join-us .pattern-circle {
+	display: none;
+}
+
+.join-us-desc h2{
+	margin-bottom: 3.2rem;
+}
+
+.join-us-desc p {
+	margin-bottom: 3.2rem;
+	padding: 0 1.3rem;
+}
+
+.join-us-desc .join-us-cta {
+	margin: 0 auto;
+}
 
 
 /* -------------------------------------------------------------------------- */
@@ -1122,6 +1195,8 @@ img {
 		background-image: url( './assets/images/careers-locations-hero-tablet.jpg' );
 	}
 }
+
+
 
 @media (min-width: 599px) {
 
@@ -1523,6 +1598,54 @@ h4 {
 		margin-bottom: 14.4rem;
 	}
 
+	/* About & Careers Page ------------------------- */
+
+	/* SECTIONS - OUR VALUES (ABOUT PAGE)
+							- WHY JOIN US (CAREERS PAGE)
+	------------------------------------------------- */
+
+
+	.our-values,
+	.why-join-us {
+		margin-bottom: 12rem;
+	}
+
+	.our-values h2,
+	.why-join-us h2 {
+		margin-bottom: 10.5rem;
+	}
+
+	.our-values .tech,
+	.our-values .integrity,
+	.why-join-us .tech,
+	.why-join-us .integrity {
+		margin-bottom: 5.5rem;
+	}
+
+	.our-values .tech span,
+	.our-values .integrity span,
+	.our-values .community span,
+	.why-join-us .tech span,
+	.why-join-us .integrity span,
+	.why-join-us .community span {
+		margin-bottom: 3.2rem;
+	}
+
+	.our-values .tech p,
+	.our-values .integrity p,
+	.our-values .community p,
+	.why-join-us .tech p,
+	.why-join-us .integrity p,
+	.why-join-us .community p {
+		padding: 0 7rem;
+	}
+
+
+	/* About Page ----------------------------- */
+
+	/* SECTIONS - DIGITAL ERA,
+							- BETTER LIVING */
+
 	.digital-era .digital-era-img-wrapper,
 	.better-living .better-living-img-wrapper {
 		max-width: 44.5rem;
@@ -1568,33 +1691,6 @@ h4 {
 		transform: translate(-114.6%);
 	}
 
-	/* SECTION - OUR VALUES */
-
-	.our-values {
-		margin-bottom: 12rem;
-	}
-
-	.our-values h2 {
-		margin-bottom: 10.5rem;
-	}
-
-	.our-values .tech,
-	.our-values .integrity {
-		margin-bottom: 5.5rem;
-	}
-
-	.our-values .tech span,
-	.our-values .integrity span,
-	.our-values .community span {
-		margin-bottom: 3.2rem;
-	}
-
-	.our-values .tech p,
-	.our-values .integrity p,
-	.our-values .community p {
-		padding: 0 7rem;
-	}
-
 	/* SECTION - FAQS */
 
 	.faqs h2 {
@@ -1622,6 +1718,39 @@ h4 {
 
 	.faqs .show-answer .faq-answer {
 		padding-right: 3.6rem;
+	}
+
+	/* Careers Page --------------------------- */
+
+	/* SECTION - JOIN US */
+
+	.join-us .join-us-img-wrapper {
+		max-width: 44.5rem;
+		height: 44.5rem;
+		margin-bottom: 6.4rem;
+	}
+
+	.join-us-desc h2{
+		margin-bottom: 4rem;
+		padding: 0 5.8rem;
+	}
+
+	.join-us-desc p {
+		margin-bottom: 4rem;
+		padding: 0 1.3rem;
+	}
+
+	.join-us .left-downward-arrow {
+		left: -29%;
+	}
+
+	.join-us .pattern-circle {
+		display: block;
+		position: absolute;
+    width: 445px;
+    height: 445px;
+
+		transform: translate(114.6%);
 	}
 
 
@@ -1701,6 +1830,12 @@ h4 {
 	.digital-era .left-upward-arrow {
 		left: 0;
 	}
+
+	/* Careers Page --------------------------- */
+
+	.join-us .left-downward-arrow {
+		left: 0;
+	}
 }
 
 
@@ -1741,6 +1876,12 @@ h4 {
 	/* SECTION - DIGITAL ERA */
 
 	.digital-era .left-upward-arrow {
+		left: 35%;
+	}
+
+	/* Careers Page --------------------------- */
+
+	.join-us .left-downward-arrow {
 		left: 35%;
 	}
 
@@ -1911,13 +2052,64 @@ h4 {
 	}
 
 
-	/* About Page ----------------------------- */
+	/* Page Hero - About
+							 - Careers
+							 - Locations
+	------------------------------------------- */
 
-	/* SECTION - HERO */
-
-	.about-hero {
+	.about-hero,
+	.careers-hero,
+	.location-hero {
 		margin-bottom: 12rem;
 	}
+
+	/* About & Careers Page ------------------------- */
+
+	/* SECTIONS - OUR VALUES (ABOUT PAGE)
+							- WHY JOIN US (CAREERS PAGE)
+	------------------------------------------------- */
+
+
+	.our-values,
+	.why-join-us {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.our-values .tech,
+	.our-values .integrity,
+	.our-values .community,
+	.why-join-us .tech,
+	.why-join-us .integrity,
+	.why-join-us .community {
+		width: 31.5%;
+		/*margin-right: 3rem;*/
+		margin-right: 2.7%;
+	}
+
+	.our-values .community,
+	.why-join-us .community {
+		margin-right: 0;
+	}
+
+	.our-values h2,
+	.why-join-us h2 {
+		margin-bottom: 10.3rem;
+		order: -1;
+		flex: 1 0 100%; /* flex-grow, flex-shrink, flex-basis */
+	}
+
+	.our-values .tech p,
+	.our-values .integrity p,
+	.our-values .community p,
+	.why-join-us .tech p,
+	.why-join-us .integrity p,
+	.why-join-us .community p {
+		padding: 0 0.9rem;
+	}
+
+
+	/* About Page ----------------------------- */
 
 	/* SECTIONS - DIGITAL ERA,
 							- BETTER LIVING */
@@ -1966,37 +2158,6 @@ h4 {
 		left: -58.62%;
 	}
 
-	/* SECTION - OUR VALUES */
-
-	.our-values {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.our-values .tech,
-	.our-values .integrity,
-	.our-values .community {
-		width: 31.5%;
-		/*margin-right: 3rem;*/
-		margin-right: 2.7%;
-	}
-
-	.our-values .community {
-		margin-right: 0;
-	}
-
-	.our-values h2 {
-		margin-bottom: 10.3rem;
-		order: -1;
-		flex: 1 0 100%; /* flex-grow, flex-shrink, flex-basis */
-	}
-
-	.our-values .tech p,
-	.our-values .integrity p,
-	.our-values .community p {
-		padding: 0 0.9rem;
-	}
-
 	/* SECTION - FAQS */
 
 	.faqs .faq-how-it-works,
@@ -2023,6 +2184,47 @@ h4 {
 	.faqs .show-answer .faq-answer {
 		padding-right: 5rem;
 	}
+
+	/* Careers Page --------------------------- */
+
+	/* SECTION - JOIN US */
+
+	.join-us {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-bottom: 12rem;
+	}
+
+	.join-us .join-us-img-wrapper {
+		margin: 0;
+	}
+
+	.join-us .join-us-desc {
+		width: 445px;
+		text-align: left;
+		align-self: center;
+	}
+
+	.join-us-desc h2 {
+		margin-bottom: 2.4rem;
+		padding: 0;
+	}
+
+	.join-us-desc p {
+		margin-bottom: 4rem;
+		padding-left: 0;
+		padding-right: 2.8rem;
+	}
+
+	.join-us-desc .join-us-cta {
+		margin: 0;
+	}
+
+	.join-us .left-downward-arrow {
+		left: -20%;
+	}
+
 }
 
 
@@ -2141,10 +2343,18 @@ h4 {
 		transform: translateX(-116%);
 	}
 
+	/* Careers Page --------------------------- */
+
+	.join-us .left-upward-arrow {
+	  left: 49%;
+	}
+
 }
 
 
 @media (min-width: 1510px) {
+
+	/* Home Page ------------------------------ */
 
 	/* SECTION - HOW IT WORKS */
 
@@ -2169,4 +2379,27 @@ h4 {
 	.payments .left-downward-arrow {
     left: 62%;
   }
+
+	/* About Page ----------------------------- */
+
+	/* SECTION - DIGITAL ERA */
+
+	.digital-era .left-upward-arrow {
+		left: 62%;
+	}
+
+	/* SECTION - BETTER LIVING */
+
+	.better-living .right-arrow {
+		left: -130%;
+	}
+
+	/* Careers Page --------------------------- */
+
+	/* SECTION - JOIN US */
+
+	.join-us .left-downward-arrow {
+	  left: 300px;
+	}
+
 }
