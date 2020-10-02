@@ -27,7 +27,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	10. Page Hero
 	11. About Page
 	12. Careers Page
- 	13.  Media Queries
+ 	13. Media Queries
 
  ----------------------------------------------------------------------------- */
 
@@ -1155,6 +1155,31 @@ img {
 	margin: 0 auto;
 }
 
+/* Section - Job Listings ---------------------- */
+
+.job-listings {
+	margin-bottom: 12rem;
+}
+
+.job-listings .job {
+	background-color: #F2F5F9;
+	padding: 3.2rem;
+	padding-top: 3.6rem;
+	margin-bottom: 1.6rem;
+}
+
+.job .job-title {
+	margin-bottom: 0.4rem;
+}
+
+.job .job-location {
+	margin-bottom: 1.6rem;
+}
+
+.job .apply-cta {
+	width: 100%;
+}
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -1752,6 +1777,28 @@ h4 {
 
 		transform: translate(114.6%);
 	}
+
+	/* SECTION - JOB LISTINGS */
+
+	.job-listings .job {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 3.4rem 4.8rem 3.3rem 4.8rem;
+	}
+
+	.job .job-title,
+	.job .job-location {
+		align-self: flex-start;
+	}
+
+	.job .apply-cta {
+		width: 180px;
+		align-self: flex-end;
+	}
+
+
 
 
 	/* Site Footer ---------------------------- */
