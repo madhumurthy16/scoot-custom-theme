@@ -60,14 +60,15 @@ get_template_part('template-parts/page-hero');
 
         <?php
           $jobListings = new WP_Query( array(
-            'post_type' => 'job'
+            'post_type' => 'job',
+            'order'     => 'ASC',
           ));
 
           while( $jobListings->have_posts() ) {
             $jobListings->the_post(); ?>
 
             <article class="job">
-
+              
               <h4 class="job-title"><?php the_title(); ?></h4>
               <p class="job-location"><?php the_field( 'job_location' ); ?></p>
               <button class="btn-call-to-action apply-cta"><a href="#">Apply</a></button>
@@ -75,6 +76,9 @@ get_template_part('template-parts/page-hero');
             </article> <!-- .job -->
 
           <?php }
+
+          wp_reset_postdata();
+
         ?>
 
     </article> <!-- .job-listings -->
