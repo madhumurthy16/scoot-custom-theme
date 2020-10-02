@@ -54,8 +54,33 @@ get_template_part('template-parts/page-hero');
 
       </section> <!-- .our-values -->
 
-    </div> <!-- .section-inner -->
+    </div> <!-- .content-inner -->
+
+    <article class="job-listings section-inner">
+
+        <?php
+          $jobListings = new WP_Query( array(
+            'post_type' => 'job'
+          ));
+
+          while( $jobListings->have_posts() ) {
+            $jobListings->the_post(); ?>
+
+            <article class="job">
+
+              <h4 class="job-title"><?php the_title(); ?></h4>
+              <p class="job-location"><?php the_field( 'job_location' ); ?></p>
+              <button class="btn-call-to-action apply-cta"><a href="#">Apply</a></button>
+
+            </article> <!-- .job -->
+
+          <?php }
+        ?>
+
+    </article> <!-- .job-listings -->
 
   </main> <!-- .main-content -->
 
 </div> <!-- .container -->
+
+<?php get_footer(); ?>
