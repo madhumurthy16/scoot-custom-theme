@@ -25,4 +25,4 @@ define( 'SCOOTPATH', plugin_dir_path( __FILE__ ) );
 
 require_once( SCOOTPATH . '/post-types/register.php' );
 
-add_action( 'init', scoot_register_jobs_types );
+add_action( 'init', 'scoot_register_job_type' );
