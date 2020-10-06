@@ -17,7 +17,7 @@
 
 ?>
 
-<section class="<?php echo $page_slug ?>-hero page-hero">
+<section class="<?php echo $page_slug ?>-hero page-hero cpt-job-hero">
 
     <div class="section-inner content-inner">
 
