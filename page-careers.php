@@ -68,10 +68,10 @@ get_template_part('template-parts/page-hero');
             $jobListings->the_post(); ?>
 
             <article class="job">
-              
+
               <h4 class="job-title"><?php the_title(); ?></h4>
               <p class="job-location"><?php the_field( 'job_location' ); ?></p>
-              <button class="btn-call-to-action apply-cta"><a href="#">Apply</a></button>
+              <button class="btn-call-to-action apply-cta"><a href="<?php the_permalink(); ?>">Apply</a></button>
 
             </article> <!-- .job -->
 
