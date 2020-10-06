@@ -887,13 +887,15 @@ img {
 	margin-bottom: 7.2rem;
 }
 
-/* Careers, Locations - Page Hero ------------ */
+/* Careers, Locations, Job( CPT ) Single Template - Page Hero ------------ */
 
 .careers-hero,
-.locations-hero {
+.locations-hero,
+.cpt-job-hero {
 	background-image: url( './assets/images/careers-location-hero-mobile.jpg' );
 	margin-bottom: 7.2rem;
 }
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -1179,6 +1181,39 @@ img {
 .job .apply-cta {
 	width: 100%;
 }
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	14. Job( CPT ) Single Template
+/* -------------------------------------------------------------------------- */
+
+.job-wrapper {
+	background-color: #F2F5F9;
+	padding: 3.2rem;
+	padding-top: 3.6rem;
+	margin-bottom: 12rem;
+}
+
+.single-job .job-title {
+	margin-bottom: 0.4rem;
+}
+
+.single-job .job-location {
+	margin-bottom: 1.6rem;
+}
+
+.single-job .apply-cta {
+	margin: 0 auto;
+	margin-bottom: 2.4rem;
+}
+
+.single-job .job-details h4 {
+	margin-bottom: 2.4rem;
+}
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -1785,6 +1820,10 @@ h4 {
 		 grid-template-columns: 1fr 1fr;
 		 padding: 3.4rem 4.8rem 3.3rem 4.8rem;
 		 margin-bottom: 1.6rem;
+	}
+
+	.job-listings article:last-child {
+		margin-bottom: 0;
 	}
 
 	.job .job-title {
