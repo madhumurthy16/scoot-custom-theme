@@ -1205,18 +1205,18 @@ img {
 	margin-bottom: 3.2rem;
 }
 
-.single-job .job-details {
+.single-job .job-desc {
 	background-color: #F2F5F9;
 	padding: 3.2rem;
 	padding-top: 3.6rem;
 	text-align: left;
 }
 
-.single-job .job-details h4 {
+.single-job .job-desc h4 {
 	margin-bottom: 2.4rem;
 }
 
-.single-job .job-details p {
+.single-job .job-desc p {
 	margin-right: 0.9rem;
 }
 
@@ -1866,11 +1866,11 @@ h4 {
 		margin-bottom: 1.8rem;
 	}
 
-	.single-job .job-details {
+	.single-job .job-desc {
 		padding: 3.4rem 4.8rem 3.3rem 4.8rem;
 	}
 
-	.single-job .job-details p {
+	.single-job .job-desc p {
 		margin-right: 0.9rem;
 	}
 
@@ -2361,40 +2361,39 @@ h4 {
 
 
 	.job-wrapper .single-job {
-
+		display: flex;
+		flex-wrap: wrap;
 	}
 
-	.single-job .job-title,
-	.single-job .job-location {
+	.single-job .job-apply {
+		flex: 40%;
+		margin-right: 3rem;
 		text-align: left;
-		width: 350px;
 	}
 
 	.single-job .job-title {
-		margin-bottom: 0.4rem;
-
+		margin-bottom: 0.8rem;
 	}
 
 	.single-job .job-location {
-		margin-bottom: 1.6rem;
-
+		margin-bottom: 2rem;
 	}
 
 	.single-job .apply-cta {
 		margin: 0;
-		margin-bottom: 3.2rem;
-
+		margin-bottom: 0;
 	}
 
-	.single-job .job-details {
+	.single-job .job-desc {
+		flex: 56%;
+		text-align: left;
 		padding: 3.2rem 4rem;
+
 	}
 
-	.single-job .job-details p {
+	.single-job .job-desc p {
 		margin-right: 0.9rem;
 	}
-
-
 }
 
 
