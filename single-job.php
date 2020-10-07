@@ -23,14 +23,20 @@ get_template_part('template-parts/page-hero');
 
           <article class="single-job">
 
-            <h4 class="job-title"><?php the_title(); ?></h4>
-            <p class="job-location"><?php the_field( 'job_location' ); ?></p>
-            <button class="btn-call-to-action apply-cta"><a href="#">Apply</a></button>
-            
-            <div class="job-details">
+            <div class="job-apply">
+
+              <h3 class="job-title"><?php the_title(); ?></h3>
+              <p class="job-location"><?php the_field( 'job_location' ); ?></p>
+              <button class="btn-call-to-action apply-cta"><a href="#">Apply</a></button>
+
+            </div> <!-- .job-apply -->
+
+            <div class="job-desc">
+
                 <h4>Job description</h3>
                <?php the_content(); ?>
-             </div>
+
+             </div> <!-- .job-desc -->
 
           </article> <!-- .single-job -->
 
