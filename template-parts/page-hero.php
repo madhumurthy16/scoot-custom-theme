@@ -23,7 +23,18 @@
 
       <div class="page-hero-content">
 
-        <h1 class="page-hero-title"><?php the_title(); ?></h1>
+        <?php
+
+        if( is_page( $page_id ) ) { ?>
+          <h1 class="page-hero-title"><?php the_title(); ?></h1>
+
+         <?php }
+
+         else { ?>
+            <h1 class="page-hero-title">Careers</h1>
+
+          <?php  }
+        ?>
 
         <div class="page-hero-pattern">
           <img src="<?php echo get_template_directory_uri() . '/assets/patterns/white-circles.svg' ?>" aria-hidden="true" />
