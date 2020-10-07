@@ -13,7 +13,6 @@ function scoot_register_job_type() {
   $args = array(
     'labels'       => $labels,
     'public'       => true,
-    'has_archive' => 'job listings',
     'rewrite'      => array( 'has_front' => true ),
     'menu_icon'    => 'dashicons-list-view',
     'supports'     => array( 'title', 'editor' ),
