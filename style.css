@@ -1185,6 +1185,28 @@ img {
 
 /* -------------------------------------------------------------------------- */
 
+/*	13. Location Page
+/* -------------------------------------------------------------------------- */
+
+.world-map {
+	background-image: url( './assets/images/world-map-mobile.png' );
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 311px;
+	height: 152px;
+	margin-top: 7.2rem;
+	margin-bottom: 4rem;
+}
+
+.world-map .location {
+	display: none;
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
 /*	14. Job( CPT ) Single Template
 /* -------------------------------------------------------------------------- */
 
