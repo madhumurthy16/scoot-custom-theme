@@ -1192,9 +1192,7 @@ img {
 	background-image: url( './assets/images/world-map-mobile.png' );
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 311px;
-	height: 152px;
-	margin-top: 7.2rem;
+	height: 15.2rem;
 	margin-bottom: 4rem;
 }
 
@@ -1202,7 +1200,45 @@ img {
 	display: none;
 }
 
+.locations-mobile {
+	margin-bottom: 7.2rem;
+}
 
+.locations-mobile .location-mobile {
+	margin-bottom: 1.6rem;
+}
+
+.locations-mobile .location-mobile:last-child {
+		margin-bottom: 0;
+}
+
+.locations-mobile .location-mobile {
+	width: 100%;
+	height: 7.2rem;
+	background-color: #FCB72B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Section - Message-us ------------------------ */
+
+.message-us {
+	margin-bottom: 7.2rem;
+}
+
+.message-us h2 {
+	margin-bottom: 3.2rem;
+}
+
+.message-us p {
+	margin-bottom: 3.2rem;
+	padding: 0 1rem;
+}
+
+.message-us .message-us-cta {
+	margin: 0 auto;
+}
 
 
 /* -------------------------------------------------------------------------- */
@@ -1896,55 +1932,118 @@ h4 {
 		margin-right: 0.9rem;
 	}
 
+	/* Location Page -------------------------- */
 
+	.world-map {
+		background-image: url( './assets/images/world-map-tablet.png' );
+		height: 33.7rem;
+		margin-bottom: 6.4rem;
+		position: relative;
+	}
+
+	.world-map .location {
+		display: block;
+		position: absolute;
+	}
+
+	.world-map .newyork img,
+	.world-map .london img,
+	.world-map .yokohama img,
+	.world-map .jakarta img {
+		width: 12rem;
+    height: 4rem;
+	}
+
+	.world-map .newyork {
+		left: 9.8rem;
+		top: 5.2rem;
+	}
+
+	.world-map .london {
+		left: 24.3rem;
+		top: 2.5rem;
+	}
+
+	.world-map .yokohama {
+		left: 53rem;
+		top: 6.5rem;
+	}
+
+  .world-map .jakarta {
+		left: 48rem;
+		top: 16.9rem;
+	}
+
+	.locations-mobile {
+		display: none;
+	}
+
+	.message-us {
+		margin-bottom: 12rem;
+	}
+
+	.message-us h2 {
+		margin-bottom: 4rem;
+		padding: 0 1rem;
+	}
+
+	.message-us p {
+		margin-bottom: 4rem;
+		padding: 0 1rem;
+	}
+
+	.message-us .message-us-cta {
+		margin: 0 auto;
+	}
 
 
 	/* Site Footer ---------------------------- */
 
-	.footer-widgets-outer-wrapper {
-		padding: 6.2rem 11.5rem;
-	}
+		.footer-widgets-outer-wrapper {
+			padding: 6.2rem 11.5rem;
+		}
 
-	.footer-widgets .widget-title {
-		padding: 0 2.4rem;
-	}
+		.footer-widgets .widget-title {
+			padding: 0 2.4rem;
+		}
 
-	.pattern-semi-circles {
-		right: -16.3rem;
-  }
+		.pattern-semi-circles {
+			right: -16.3rem;
+	  }
 
-	.footer-credits-wrapper {
-		padding: 3.4rem 0;
-	}
+		.footer-credits-wrapper {
+			padding: 3.4rem 0;
+		}
 
-	.footer-credits {
-		flex-direction: row;
-	  justify-content: space-between;
-		align-items: center;
-	}
+		.footer-credits {
+			flex-direction: row;
+		  justify-content: space-between;
+			align-items: center;
+		}
 
-	.footer-credits .footer-logo {
-		margin-right: 5.858rem;
-	}
+		.footer-credits .footer-logo {
+			margin-right: 5.858rem;
+		}
 
-	.footer-navigation-wrapper {
-		margin: 0;
-		margin-right: auto;
-	}
+		.footer-navigation-wrapper {
+			margin: 0;
+			margin-right: auto;
+		}
 
-	.footer-menu {
-		display: flex;
-		align-items: center;
-	}
+		.footer-menu {
+			display: flex;
+			align-items: center;
+		}
 
-	.footer-menu li {
-		margin-right: 3.2rem;
-		margin-bottom: 0;
-	}
+		.footer-menu li {
+			margin-right: 3.2rem;
+			margin-bottom: 0;
+		}
 
-	.footer-menu li:last-child {
-		margin-right: 0;
-	}
+		.footer-menu li:last-child {
+			margin-right: 0;
+		}
+
 }
 
 
