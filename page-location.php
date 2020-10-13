@@ -15,26 +15,27 @@ get_template_part('template-parts/page-hero');
 
   <main id="main-content" role="main">
 
-    <div class="section-inner content-inner">
+    <div class="section-inner">
 
       <section class="world-map">
 
-        <div class="location">
+        <div class="location newyork">
           <img src="<?php echo get_template_directory_uri() . '/assets/icons/new-york.svg' ?>" alt="" aria-hidden="true" />
         </div>
-        <div class="location">
+        <div class="location london">
           <img src="<?php echo get_template_directory_uri() . '/assets/icons/london.svg' ?>" alt="" aria-hidden="true" />
         </div>
-        <div class="location">
+        <div class="location yokohama">
           <img src="<?php echo get_template_directory_uri() . '/assets/icons/yokohama.svg' ?>" alt="" aria-hidden="true" />
         </div>
-        <div class="location">
+        <div class="location jakarta">
           <img src="<?php echo get_template_directory_uri() . '/assets/icons/jakarta.svg' ?>" alt="" aria-hidden="true" />
         </div>
 
       </section> <!-- .world-map -->
 
-    </div> <!-- .content-inner -->
+    </div>
+
 
     <section class="locations-mobile section-inner content-inner">
 
@@ -56,7 +57,7 @@ get_template_part('template-parts/page-hero');
 
     </section> <!-- .locations-mobile -->
 
-    <section class="message-us">
+    <section class="message-us section-inner content-inner">
 
       <h2>Your city not listed?</h2>
       <p>If you’d like to see Scoot in your hometown, be sure to let us know. We track
