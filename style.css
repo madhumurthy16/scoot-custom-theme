@@ -1189,10 +1189,10 @@ img {
 /* -------------------------------------------------------------------------- */
 
 .world-map {
-	background-image: url( './assets/images/world-map-mobile.png' );
+	/*background-image: url( './assets/images/world-map-mobile.png' );
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 15.2rem;
+	height: 15.2rem;*/
 	margin-bottom: 4rem;
 }
 
@@ -1943,7 +1943,7 @@ h4 {
 
 	.world-map .location {
 		display: block;
-		position: absolute;
+		position: relative;
 	}
 
 	.world-map .newyork img,
@@ -2514,6 +2514,63 @@ h4 {
 
 	.single-job .job-desc p {
 		margin-right: 0.9rem;
+	}
+
+	/* Location Page -------------------------- */
+
+	.world-map {
+		background-image: url( './assets/images/world-map-desktop.png' );
+		height: 542.81px;
+		margin-bottom: 12.09rem;
+	}
+
+	.world-map .newyork img,
+	.world-map .london img,
+	.world-map .yokohama img,
+	.world-map .jakarta img {
+		width: 18.9rem;
+    height: 8.8rem;
+	}
+
+	/*.world-map .newyork {
+		left: 9.8rem;
+		top: 5.2rem;
+	}
+
+	.world-map .london {
+		left: 24.3rem;
+		top: 2.5rem;
+	}
+
+	.world-map .yokohama {
+		left: 53rem;
+		top: 6.5rem;
+	}
+
+  .world-map .jakarta {
+		left: 48rem;
+		top: 16.9rem;
+	}*/
+
+	.message-us {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.message-us h2 {
+    max-width: 351px;
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.message-us p {
+		max-width: 445px;
+    text-align: left;
+		margin-bottom: 0;
+	}
+
+	.message-us .message-us-cta {
+		align-self: center;
 	}
 }
 
