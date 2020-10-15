@@ -1935,8 +1935,8 @@ h4 {
 	/* Location Page -------------------------- */
 
 	.world-map {
-		background-image: url( './assets/images/world-map-tablet.png' );
-		height: 33.7rem;
+		/*background-image: url( './assets/images/world-map-tablet.png' );
+		height: 33.7rem;*/
 		margin-bottom: 6.4rem;
 		position: relative;
 	}
@@ -2519,8 +2519,8 @@ h4 {
 	/* Location Page -------------------------- */
 
 	.world-map {
-		background-image: url( './assets/images/world-map-desktop.png' );
-		height: 542.81px;
+		/*background-image: url( './assets/images/world-map-desktop.png' );
+		height: 542.81px;*/
 		margin-bottom: 12.09rem;
 	}
 
