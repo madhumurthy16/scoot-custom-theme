@@ -20,24 +20,11 @@ get_template_part('template-parts/page-hero');
       <section class="world-map">
 
         <picture>
-          <source media="(max-width: 621px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-mobile.png' ?>">
-          <source media="(max-width: 768px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-tablet.png' ?>">
-          <source media="(max-width: 1440px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-desktop.png' ?>">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/world-map-desktop.png' ?>" alt="World Map">
+          <source draggable="false" media="(max-width: 375px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-mobile.png' ?>">
+          <source draggable="false" media="(max-width: 768px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-tablet.png' ?>">
+          <source draggable="false" media="(min-width: 769px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-desktop.png' ?>">
+          <img draggable="false" src="<?php echo get_template_directory_uri() . '/assets/images/world-map-desktop.png' ?>" alt="World Map">
         </picture>
-
-        <div class="location newyork">
-          <img src="<?php echo get_template_directory_uri() . '/assets/icons/new-york.svg' ?>" alt="" aria-hidden="true" />
-        </div>
-        <div class="location london">
-          <img src="<?php echo get_template_directory_uri() . '/assets/icons/london.svg' ?>" alt="" aria-hidden="true" />
-        </div>
-        <div class="location yokohama">
-          <img src="<?php echo get_template_directory_uri() . '/assets/icons/yokohama.svg' ?>" alt="" aria-hidden="true" />
-        </div>
-        <div class="location jakarta">
-          <img src="<?php echo get_template_directory_uri() . '/assets/icons/jakarta.svg' ?>" alt="" aria-hidden="true" />
-        </div>
 
       </section> <!-- .world-map -->
 
