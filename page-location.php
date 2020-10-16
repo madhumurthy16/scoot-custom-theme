@@ -20,7 +20,7 @@ get_template_part('template-parts/page-hero');
       <section class="world-map">
 
         <picture>
-          <source media="(max-width: 622px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-mobile.png' ?>">
+          <source media="(max-width: 621px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-mobile.png' ?>">
           <source media="(max-width: 768px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-tablet.png' ?>">
           <source media="(max-width: 1440px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/world-map-desktop.png' ?>">
           <img src="<?php echo get_template_directory_uri() . '/assets/images/world-map-desktop.png' ?>" alt="World Map">
