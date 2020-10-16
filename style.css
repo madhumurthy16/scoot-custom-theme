@@ -1196,14 +1196,6 @@ img {
 	margin-bottom: 4rem;
 }
 
-.world-map .location {
-	display: none;
-}
-
-.locations-mobile {
-	margin-bottom: 7.2rem;
-}
-
 .locations-mobile .location-mobile {
 	margin-bottom: 1.6rem;
 }
@@ -1214,8 +1206,9 @@ img {
 
 .locations-mobile .location-mobile {
 	width: 100%;
+	max-width: 62.2rem;
 	height: 7.2rem;
-	background-color: #FCB72B;
+	background-color: rgba(252,183,43,0.15);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1318,6 +1311,12 @@ img {
 	.location-hero {
 		background-image: url( './assets/images/careers-locations-hero-tablet.jpg' );
 	}
+
+	/* Location Page -------------------------- */
+
+	.locations-mobile {
+		display: none;
+	}
 }
 
 
@@ -1332,54 +1331,6 @@ img {
 		left: -74%;
 	}
 }
-
-@media ( min-width: 622px ) {
-
-	/* Location Page -------------------------- */
-
-	.locations-mobile {
-		display: none;
-	}
-
-	.world-map {
-		position: relative;
-	}
-
-	.world-map .location {
-		display: block;
-		position: absolute;
-	}
-
-	.world-map .newyork img,
-	.world-map .london img,
-	.world-map .yokohama img,
-	.world-map .jakarta img {
-		width: 12rem;
-    height: 4rem;
-	}
-
-	.world-map .newyork {
-		left: 9.8rem;
-		top: 5.2rem;
-	}
-
-	.world-map .london {
-		left: 24.3rem;
-		top: 2.5rem;
-	}
-
-	.world-map .yokohama {
-		left: 53rem;
-		top: 6.5rem;
-	}
-
-  .world-map .jakarta {
-		left: 48rem;
-		top: 16.9rem;
-	}
-
-}
-
 
 @media (min-width: 640px ) {
 	.hero-content .hero-inner {
@@ -1985,13 +1936,11 @@ h4 {
 		/*background-image: url( './assets/images/world-map-tablet.png' );
 		height: 33.7rem;*/
 		margin-bottom: 6.4rem;
-		/*position: relative;*/
 	}
 
-	/*.world-map .location {
-		display: block;
-		position: relative;
-	}*/
+	.locations-mobile {
+		display: none;
+	}
 
 	.message-us {
 		margin-bottom: 12rem;
@@ -2546,26 +2495,6 @@ h4 {
 		width: 18.9rem;
     height: 8.8rem;
 	}
-
-	/*.world-map .newyork {
-		left: 9.8rem;
-		top: 5.2rem;
-	}
-
-	.world-map .london {
-		left: 24.3rem;
-		top: 2.5rem;
-	}
-
-	.world-map .yokohama {
-		left: 53rem;
-		top: 6.5rem;
-	}
-
-  .world-map .jakarta {
-		left: 48rem;
-		top: 16.9rem;
-	}*/
 
 	.message-us {
 		display: flex;
