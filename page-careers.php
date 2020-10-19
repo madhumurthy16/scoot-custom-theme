@@ -40,7 +40,7 @@ get_template_part('template-parts/page-hero');
              passionate about our mission to provide clean, accessible transport to improve urban
              living we want to hear from you!</p>
 
-          <button class="btn-call-to-action join-us-cta"><a href="#">Say Hello</a></button>
+          <a href="#" class="btn-call-to-action join-us-cta">Say Hello</a>
 
         </div> <!-- .join-us-desc -->
 
@@ -71,7 +71,7 @@ get_template_part('template-parts/page-hero');
 
               <h4 class="job-title"><?php the_title(); ?></h4>
               <p class="job-location"><?php the_field( 'job_location' ); ?></p>
-              <button class="btn-call-to-action apply-cta"><a href="<?php the_permalink(); ?>">Apply</a></button>
+              <a href="<?php the_permalink(); ?>" class="btn-call-to-action apply-cta">Apply</a>
 
             </article> <!-- .job -->
 
