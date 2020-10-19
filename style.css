@@ -514,10 +514,12 @@ img {
 	z-index: 100;
 }
 
-.modal-menu .btn-call-to-action {
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
+.modal-menu li:last-child a {
+	color: #fff;
+}
+
+.modal-menu li:last-child:hover a {
+	color: #FCB72B;
 }
 
 .invisible {
@@ -1444,11 +1446,12 @@ h4 {
 	color: #FCB72B;
 }
 
-.primary-menu .btn-call-to-action a {
+
+.primary-menu li:last-child a {
 	color: #fff;
 }
 
-.primary-menu .btn-call-to-action:hover a {
+.primary-menu li:last-child:hover a {
 	color: #FCB72B;
 }
 
