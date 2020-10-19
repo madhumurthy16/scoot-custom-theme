@@ -29,3 +29,11 @@ faqs.forEach(faq => {
     faq.classList.toggle('show-answer');
   }
 });
+
+// Add class name to primary menu cta link & modal menu cta.
+
+const ctaLink = document.querySelector('.primary-menu li:last-child a');
+ctaLink.classList.add('btn-call-to-action');
+
+const ctaLinkModal = document.querySelector('.modal-menu li:last-child a');
+ctaLinkModal.classList.add('btn-call-to-action');
