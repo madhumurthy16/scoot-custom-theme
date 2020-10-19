@@ -343,27 +343,19 @@ img {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-}
-
-.btn-call-to-action a {
 	font-size: 15px;
   line-height: 25px;
 	font-weight: bold;
   text-align: center;
 	color: #FFFFFF;
-
 }
 
 .btn-call-to-action:hover {
 	border: 3px solid #FCB72B;
 	background-color: transparent;
+	color: #FCB72B;
 	/*margin: -3px;*/
 }
-
-.btn-call-to-action:hover a {
-	color: #FCB72B;
-}
-
 
 /* -------------------------------------------------------------------------- */
 
@@ -1073,6 +1065,11 @@ img {
 	margin-bottom: 1.6rem;
 	padding: 3.2rem;
 	padding-right: 2.8rem;
+}
+
+.faqs .faq:hover {
+	cursor: pointer;
+	background-color: #FFF4DF;
 }
 
 .faq .faq-question {
