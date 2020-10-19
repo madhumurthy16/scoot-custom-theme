@@ -61,7 +61,7 @@
       average speed, how long you've been using the scooter, your traveling distance,
       and many more things all in an easy to use app.</p>
 
-    <a href="#" class="btn-call-to-action telemetry-cta">Learn More</a>
+    <a href="https://scoot.local/about/" class="btn-call-to-action telemetry-cta">Learn More</a>
 
   </div> <!-- .telemetry-desc -->
 
@@ -92,7 +92,7 @@
        to let us know if you want to see us in your hometown. We’re aiming to let our
        scooters loose on 23 cities over the coming year.</p>
 
-    <a href="#" class="btn-call-to-action cities-cta">Learn More</a>
+    <a href="https://scoot.local/location/" class="btn-call-to-action cities-cta">Learn More</a>
 
   </div> <!-- .cities-desc -->
 
@@ -123,7 +123,7 @@
   You can also link your PayPal account inside the app. Need to pay later? No worries!
   You can defer payment for up to a month.</p>
 
-    <a href="#" class="btn-call-to-action payments-cta">Learn More</a>
+    <a href="https://scoot.local/about/" class="btn-call-to-action payments-cta">Learn More</a>
 
   </div> <!-- .payments-desc -->
 
