@@ -56,7 +56,7 @@ get_template_part('template-parts/page-hero');
 
     </div> <!-- .content-inner -->
 
-    <article class="job-listings section-inner">
+    <article id="all-jobs" class="job-listings section-inner">
 
         <?php
           $jobListings = new WP_Query( array(
