@@ -38,6 +38,10 @@ get_template_part('template-parts/page-hero');
 
              </div> <!-- .job-desc -->
 
+             <div class="all-jobs">
+               <h5><a href="<?php echo get_permalink(get_page_by_path('careers')) . '#all-jobs'; ?>" class="all-jobs">Back To All Jobs</a></h5>
+             </div>
+
           </article> <!-- .single-job -->
 
         <?php
