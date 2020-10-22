@@ -1260,6 +1260,7 @@ img {
 	padding: 3.2rem;
 	padding-top: 3.6rem;
 	text-align: left;
+	margin-bottom: 3.2rem;
 }
 
 .single-job .job-desc h4 {
@@ -1268,6 +1269,10 @@ img {
 
 .single-job .job-desc p {
 	margin-right: 0.9rem;
+}
+
+.single-job .all-jobs a:hover {
+	color: #495567;
 }
 
 
@@ -1307,7 +1312,8 @@ img {
 	/* CAREERS,LOCATION PAGE - HERO */
 
 	.careers-hero,
-	.location-hero {
+	.location-hero,
+	.cpt-job-hero {
 		background-image: url( './assets/images/careers-locations-hero-tablet.jpg' );
 	}
 
@@ -1913,7 +1919,6 @@ h4 {
 
 	/* Job( CPT ) Single Template ------------- */
 
-
 	.single-job .job-title {
 		margin-bottom: 0.8rem;
 	}
@@ -2022,7 +2027,8 @@ h4 {
 	/* CAREERS,LOCATION PAGE - HERO */
 
 	.careers-hero,
-	.location-hero {
+	.location-hero,
+	.cpt-job-hero {
 		background-image: url( './assets/images/careers-locations-hero-desktop.jpg' );
 	}
 
@@ -2443,7 +2449,6 @@ h4 {
 	}
 
 	/* Job( CPT ) Single Template ------------- */
-
 
 	.job-wrapper .single-job {
 		display: flex;
