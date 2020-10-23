@@ -578,6 +578,7 @@ img {
 	background: url('./assets/icons/app-store.svg');
 	background-size: contain;
 	margin-right: 1.286rem;
+	margin-bottom: 1.4rem;
 }
 
 .footer-widgets .textwidget .btn-googleplay {
@@ -1272,7 +1273,7 @@ img {
 }
 
 .single-job .all-jobs a:hover {
-	color: #495567;
+	color: #939CAA;
 }
 
 
@@ -1292,6 +1293,12 @@ img {
 	 /*.header-footer-section-inner {
  	 		width: calc(100% - 8rem);
  	}*/
+
+	/* Footer --------------------------------- */
+
+	.footer-widgets .textwidget .btn-appstore {
+		margin-bottom: 0;
+	}
 
   /* Home Page ------------------------------ */
 
