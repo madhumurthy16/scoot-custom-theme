@@ -16,9 +16,9 @@ menuTrigger.addEventListener('click', () => {
 const faqs = document.querySelectorAll('.faq');
 
 faqs.forEach(faq => {
-  const faqToggleAnswer = faq.querySelector('.faq-toggle-answer');
+  //const faqToggleAnswer = faq.querySelector('.faq-toggle-answer');
 
-  faqToggleAnswer.onclick = (e) => {
+  faq.onclick = (e) => {
 
     faqs.forEach(item => {
       if(item !== faq) {
