@@ -37,3 +37,27 @@ ctaLink.classList.add('btn-call-to-action');
 
 const ctaLinkModal = document.querySelector('.modal-menu li:last-child a');
 ctaLinkModal.classList.add('btn-call-to-action');
+
+// Animate on scroll
+// Detect request animation frame
+
+var scroll = window.requestAnmationFrame ||
+             // IE fallback
+             function(callback){ window.setTimeout(callback, 1000/60)};
+var elementsToShow = document.querySelectorAll('.show-on-scroll');
+
+function loop() {
+  elementsToShow.forEach(function(element) {
+    if(isElementInViewport(element)) {
+      element.classList.add('is-vissble');
+    } else {
+      element.classList.remove('is-visible');
+    }
+  });
+
+  scroll(loop);
+}
+
+// call the loop for the first time
+
+loop();
