@@ -38,10 +38,10 @@ ctaLink.classList.add('btn-call-to-action');
 const ctaLinkModal = document.querySelector('.modal-menu li:last-child a');
 ctaLinkModal.classList.add('btn-call-to-action');
 
-// Animate on scroll
+// Animate on scroll function from https://cssanimation.rocks/scroll-animations/
 // Detect request animation frame
 
-var scroll = window.requestAnmationFrame ||
+var scroll = window.requestAnimationFrame ||
              // IE fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
 var elementsToShow = document.querySelectorAll('.show-on-scroll');
@@ -49,7 +49,7 @@ var elementsToShow = document.querySelectorAll('.show-on-scroll');
 function loop() {
   elementsToShow.forEach(function(element) {
     if(isElementInViewport(element)) {
-      element.classList.add('is-vissble');
+      element.classList.add('is-visisble');
     } else {
       element.classList.remove('is-visible');
     }
@@ -61,3 +61,22 @@ function loop() {
 // call the loop for the first time
 
 loop();
+
+// Helper function from: http://stackoverflow.com/a/7557433/274826
+function isElementInViewport(el) {
+  // special bonus for those using jQuery
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+  var rect = el.getBoundingClientRect();
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
+}
