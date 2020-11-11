@@ -34,7 +34,7 @@ get_template_part('template-parts/page-hero');
 
         <div class="join-us-desc">
 
-          <h2>Care to join our mission?</h2>
+          <h2 class="right-on-scroll">Care to join our mission?</h2>
 
           <p>We’re always looking for ambitious individuals to help us on our journey. If you’re
              passionate about our mission to provide clean, accessible transport to improve urban
@@ -48,7 +48,7 @@ get_template_part('template-parts/page-hero');
 
       <section class="Why-join-us">
 
-        <h2>Why join us?</h2>
+        <h2 class="right-on-scroll">Why join us?</h2>
 
         <?php get_template_part('template-parts/values-join-us'); ?>
 
