@@ -39,28 +39,45 @@ const ctaLinkModal = document.querySelector('.modal-menu li:last-child a');
 ctaLinkModal.classList.add('btn-call-to-action');
 
 // Animate on scroll function from https://cssanimation.rocks/scroll-animations/
+
 // Detect request animation frame
 
 var scroll = window.requestAnimationFrame ||
              // IE fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
-var elementsToShow = document.querySelectorAll('.show-on-scroll');
+var footerWidgetTitle = document.querySelector('.widget-title');
+footerWidgetTitle.classList.add('show-on-scroll');
+var elementsToShow = document.querySelectorAll('.right-on-scroll');
+var scrollDownElements = document.querySelectorAll('.down-on-scroll');
 
 function loop() {
   elementsToShow.forEach(function(element) {
     if(isElementInViewport(element)) {
-      element.classList.add('is-visisble');
+      element.classList.add('animate-slide-right');
     } else {
-      element.classList.remove('is-visible');
+      element.classList.remove('animate-slide-right');
     }
   });
 
   scroll(loop);
 }
 
+function loopDown() {
+  scrollDownElements.forEach(function(element) {
+    if(isElementInViewport(element)) {
+      element.classList.add('animate-slide-down');
+    } else {
+      element.classList.remove('animate-slide-down');
+    }
+  });
+  scroll(loopDown);
+}
+
+
 // call the loop for the first time
 
 loop();
+loopDown();
 
 // Helper function from: http://stackoverflow.com/a/7557433/274826
 function isElementInViewport(el) {
