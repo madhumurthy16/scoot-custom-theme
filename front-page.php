@@ -14,8 +14,8 @@ get_header();
       <div class="section-inner content-inner">
       <div class="hero-content">
         <div class="hero-inner">
-        <h1 class="hero-title animate-slide-up">Scooter Sharing Made Simple</h1>
-        <p class="hero-text animate-slide-up">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient
+        <h1 class="hero-title right-on-scroll">Scooter Sharing Made Simple</h1>
+        <p class="hero-text">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient
           locations in each of our cities. Use our app to locate the nearest bike, unlock
           it with a tap, and you’re away!</p>
 
