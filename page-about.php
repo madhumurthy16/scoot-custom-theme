@@ -35,7 +35,7 @@ get_template_part( 'template-parts/page-hero');
 
         <div class="digital-era-desc">
 
-          <h2>Mobility for the digital era</h2>
+          <h2 class="right-on-scroll">Mobility for the digital era</h2>
 
           <p>Getting around should be simple (and even fun!) for everyone. We embrace technology to
              provide low cost, smart access to scooters at your fingertips.</p>
@@ -63,7 +63,7 @@ get_template_part( 'template-parts/page-hero');
 
         <div class="better-living-desc">
 
-          <h2>Better urban living</h2>
+          <h2 class="right-on-scroll">Better urban living</h2>
 
           <p> We’re helping connect cities and bring people closer together. Our scooters are also
               fully-electric and we offset the minimal carbon footprint for each ride.</p>
@@ -74,7 +74,7 @@ get_template_part( 'template-parts/page-hero');
 
       <section class="our-values">
 
-        <h2>Our values</h2>
+        <h2 class="right-on-scroll">Our values</h2>
 
         <?php get_template_part('template-parts/values-join-us'); ?>
 
@@ -84,7 +84,7 @@ get_template_part( 'template-parts/page-hero');
 
     <article class="faqs section-inner">
 
-      <h2>FAQs</h2>
+      <h2 class="right-on-scroll">FAQs</h2>
 
       <section class="faq-how-it-works">
 
