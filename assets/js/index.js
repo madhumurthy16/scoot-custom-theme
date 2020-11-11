@@ -46,7 +46,7 @@ var scroll = window.requestAnimationFrame ||
              // IE fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
 var footerWidgetTitle = document.querySelector('.widget-title');
-footerWidgetTitle.classList.add('show-on-scroll');
+footerWidgetTitle.classList.add('right-on-scroll');
 var elementsToShow = document.querySelectorAll('.right-on-scroll');
 var scrollDownElements = document.querySelectorAll('.down-on-scroll');
 
