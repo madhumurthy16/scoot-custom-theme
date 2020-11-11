@@ -1281,21 +1281,54 @@ img {
 /*	14. Animations
 /* -------------------------------------------------------------------------- */
 
+.right-on-scroll,
+.down-on-scroll {
+	opacity: 0;
+}
 
-@keyframes slide-up {
+/* Slide Up on Scroll -------------------------- */
+
+@keyframes slideRight {
+	0% {
+		transform: translateX(-4rem);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeIn {
 	0% {
 		opacity: 0;
-		transform: translateY(4rem);
 	}
 	100% {
 		opacity: 1;
-		transform: none;
 	}
 }
 
-.animate-slide-up {
-	animation: slide-up .6s ease-in-out;
+.animate-slide-right {
+	animation: slideRight .6s .25s cubic-bezier(0.175, 0.885, 0.32, 1.275), fadeIn .6s .25s ease-in;
+	animation-fill-mode: forwards;
 }
+
+/* Slide Down on Scroll ------------------------ */
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-4rem);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.animate-slide-down {
+	animation: slideDown .6s .25s cubic-bezier(0.175, 0.885, 0.32, 1.275), fadeIn .3s .25s ease-in;
+	animation-fill-mode: forwards;
+ }
+
+
+
 
 
 
