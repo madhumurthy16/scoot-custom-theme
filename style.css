@@ -348,6 +348,8 @@ img {
 	font-weight: bold;
   text-align: center;
 	color: #FFFFFF;
+
+	transition: all .4s ease-in-out;
 }
 
 .btn-call-to-action:hover {
@@ -355,7 +357,10 @@ img {
 	background-color: transparent;
 	color: #FCB72B;
 	/*margin: -3px;*/
+	letter-spacing: 1.2px;
 }
+
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -1092,6 +1097,7 @@ img {
 .faqs .faq .faq-answer {
 	display: none;
 	text-align: left;
+	transition: opacity .4s ease-in-out;
 }
 
 .faqs .show-answer .faq-answer {
@@ -1286,6 +1292,15 @@ img {
 	opacity: 0;
 }
 
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 /* Slide Up on Scroll -------------------------- */
 
 @keyframes slideRight {
@@ -1294,15 +1309,6 @@ img {
 	}
 	100% {
 		transform: translateX(0);
-	}
-}
-
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
 	}
 }
 
@@ -1326,6 +1332,8 @@ img {
 	animation: slideDown .6s .25s cubic-bezier(0.175, 0.885, 0.32, 1.275), fadeIn .3s .25s ease-in;
 	animation-fill-mode: forwards;
  }
+
+
 
 
 
