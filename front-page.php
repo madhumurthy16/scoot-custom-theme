@@ -19,7 +19,7 @@ get_header();
           locations in each of our cities. Use our app to locate the nearest bike, unlock
           it with a tap, and you’re away!</p>
 
-        <a href="#site-footer" class="btn-call-to-action hero-cta animate-slide-up">Get Scootin</a>
+        <a href="#site-footer" class="btn-call-to-action hero-cta">Get Scootin</a>
       </div>
       </div> <!-- .hero-content -->
     </div> <!-- .section-inner -->
