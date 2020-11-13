@@ -1097,13 +1097,16 @@ img {
 .faqs .faq .faq-answer {
 	display: none;
 	text-align: left;
-	transition: opacity .4s ease-in-out;
 }
 
 .faqs .show-answer .faq-answer {
 	display: block;
 	margin-top: 2.4rem;
 	padding-right: 1.54rem;
+}
+
+.faqs .faq-toggle-answer img {
+	transition: transform  .4s ease-in-out;
 }
 
 .faqs .show-answer .faq-toggle-answer img {
