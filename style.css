@@ -349,7 +349,7 @@ img {
   text-align: center;
 	color: #FFFFFF;
 
-	transition: all .4s ease-in-out;
+	transition: all .4s ease-in;
 }
 
 .btn-call-to-action:hover {
