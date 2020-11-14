@@ -17,7 +17,6 @@ const faqs = document.querySelectorAll('.faq');
 
 faqs.forEach(faq => {
   //const faqToggleAnswer = faq.querySelector('.faq-toggle-answer');
-
   faq.onclick = (e) => {
 
     faqs.forEach(item => {
