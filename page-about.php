@@ -100,7 +100,7 @@ get_template_part( 'template-parts/page-hero');
           <p class="faq-answer">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores.
           An even simpler way to do it would be to click the relevant link at the bottom of this
           page and you’ll be re-directed to the correct page.</p>
-
+        
         </article> <!-- .faq -->
 
         <article class="faq">
@@ -109,7 +109,6 @@ get_template_part( 'template-parts/page-hero');
             <h4>Can I find a nearby Scoots?</h4>
             <span class="faq-toggle-answer"><img src="<?php echo get_template_directory_uri() . '/assets/icons/chevron.svg' ?>" alt="Chevron icon to open faq answers " aria-hidden="true" /></span>
           </div>
-
           <p class="faq-answer">Definitely! Simply open up the app and allow us to find your location while using it. We'll
           show you all of the closest Scoots and some extra useful information.</p>
 
