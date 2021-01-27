@@ -652,9 +652,19 @@ img {
 	margin-right: 0;
 }
 
+.social-menu li a svg {
+	transition: transform .4s ease-in;
+}
+
+.social-menu li a svg:hover {
+	transform: scale(1.1);
+}
+
+
 .social-menu li a svg:hover path {
 	fill: #fff;
 	background: #fff;
+	transition: .4s cubic-bezier(.79,.23,.5,.94);
 }
 
 
