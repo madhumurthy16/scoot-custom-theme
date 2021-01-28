@@ -31,7 +31,7 @@
          <?php }
 
          else if( is_404() ) { ?>
-           <h1 class="page-hero-title">404 Error</h1>
+           <h1 class="page-hero-title">Error 404</h1>
          <?php }
 
          else { ?>
