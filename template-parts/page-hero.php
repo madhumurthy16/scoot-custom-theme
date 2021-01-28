@@ -30,6 +30,10 @@
 
          <?php }
 
+         else if( is_404() ) { ?>
+           <h1 class="page-hero-title">404 Error</h1>
+         <?php }
+
          else { ?>
             <h1 class="page-hero-title">Careers</h1>
 
