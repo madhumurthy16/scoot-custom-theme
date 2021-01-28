@@ -27,7 +27,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	10. Page Hero
 	11. About Page
 	12. Careers Page
- 	13. Media Queries
+	13. 404 Page
+ 	14. Media Queries
 
  ----------------------------------------------------------------------------- */
 
@@ -1346,11 +1347,19 @@ img {
 	animation-fill-mode: forwards;
  }
 
+ /* -------------------------------------------------------------------------- */
+
+ /*	13. 404 Page
+ /* -------------------------------------------------------------------------- */
 
 
+ .page-not-found-error {
+	 margin-bottom: 12rem;
+ }
 
-
-
+ .page-not-found-error h2 {
+	 margin-bottom: 3.2rem;
+ }
 
 
 /* -------------------------------------------------------------------------- */
@@ -2045,6 +2054,13 @@ h4 {
 
 	.message-us .message-us-cta {
 		margin: 0 auto;
+	}
+
+
+	/* 404 Page ------------------------------- */
+
+	.page-not-found-error h2 {
+		margin-bottom: 4rem;
 	}
 
 
