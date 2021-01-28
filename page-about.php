@@ -6,7 +6,7 @@
 
 get_header();
 
-get_template_part( 'template-parts/page-hero');
+get_template_part( 'template-parts/page-hero' );
 
 ?>
 
@@ -100,7 +100,7 @@ get_template_part( 'template-parts/page-hero');
           <p class="faq-answer">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores.
           An even simpler way to do it would be to click the relevant link at the bottom of this
           page and you’ll be re-directed to the correct page.</p>
-        
+
         </article> <!-- .faq -->
 
         <article class="faq">
