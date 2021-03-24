@@ -40,7 +40,7 @@ get_template_part('template-parts/page-hero');
              passionate about our mission to provide clean, accessible transport to improve urban
              living we want to hear from you!</p>
 
-          <a href="#" class="btn-call-to-action join-us-cta">Say Hello</a>
+          <button class="btn-call-to-action join-us-cta">Say Hello</button>
 
         </div> <!-- .join-us-desc -->
 
