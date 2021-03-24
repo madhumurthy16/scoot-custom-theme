@@ -27,7 +27,7 @@ get_template_part('template-parts/page-hero');
 
               <h3 class="job-title"><?php the_title(); ?></h3>
               <p class="job-location"><?php the_field( 'job_location' ); ?></p>
-              <a href="#" class="btn-call-to-action apply-cta">Apply</a>
+              <button class="btn-call-to-action apply-cta">Apply</button>
 
             </div> <!-- .job-apply -->
 
