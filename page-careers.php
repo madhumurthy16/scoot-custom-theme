@@ -22,24 +22,22 @@ get_template_part('template-parts/page-hero');
         <div class="join-us-img-wrapper">
 
           <div class="pattern-circle">
-            <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" aria-hidden="true" />
+            <img src="<?php echo get_template_directory_uri() . '/assets/patterns/circle.svg' ?>" alt="" aria-hidden="true" />
           </div>
           <div class="left-downward-arrow">
-            <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" aria-hidden="true" />
+            <img src="<?php echo get_template_directory_uri() . '/assets/patterns/left-downward-arrow.svg' ?>" alt="" aria-hidden="true" />
           </div>
 
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/join-us.jpg'?>"  class="join-us" aria-hidden="true" />
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/join-us.jpg'?>"  class="join-us" alt="" aria-hidden="true" />
 
         </div> <!-- .join-us-img-wrapper -->
 
         <div class="join-us-desc">
 
           <h2 class="right-on-scroll">Care to join our mission?</h2>
-
           <p>We’re always looking for ambitious individuals to help us on our journey. If you’re
              passionate about our mission to provide clean, accessible transport to improve urban
              living we want to hear from you!</p>
-
           <button class="btn-call-to-action join-us-cta">Say Hello</button>
 
         </div> <!-- .join-us-desc -->
@@ -49,10 +47,9 @@ get_template_part('template-parts/page-hero');
       <section class="Why-join-us">
 
         <h2 class="right-on-scroll">Why join us?</h2>
-
         <?php get_template_part('template-parts/values-join-us'); ?>
 
-      </section> <!-- .our-values -->
+      </section> <!-- .why-join-us -->
 
     </div> <!-- .content-inner -->
 

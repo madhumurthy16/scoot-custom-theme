@@ -25,8 +25,8 @@
         <div class="header-titles-wrapper">
 
           <button class="site-header-menu-trigger">
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/hamburger.svg' ?>" class="openIcon" alt="hamburger icon for mobile menu" aria-hidden="true" />
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/close.svg' ?>" class="closeIcon invisible" alt="close icon for mobile menu" aria-hidden="true" />
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/hamburger.svg' ?>" class="openIcon" alt="" aria-hidden="true" />
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/close.svg' ?>" class="closeIcon invisible" alt="" aria-hidden="true" />
           </button>
 
           <div class="header-titles">
@@ -64,18 +64,17 @@
                 }
                 ?>
 
-              </ul>
+              </ul> <!-- .primary-menu -->
             </nav> <!-- .primary-menu-wrapper -->
 
             <?php
           }
           ?>
 
-          <!-- <a href="#app-download-section" class="btn-call-to-action">Get Scootin</a> -->
-
         </div> <!-- .header-navigation-wrapper -->
 
       </div> <!-- .header-inner -->
+      
     </header>
 
     <?php

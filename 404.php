@@ -19,7 +19,7 @@ get_template_part( 'template-parts/page-hero' );
 
       <p>Sorry, the page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place.</p>
 
-    </div> <!-- .404-error -->
+    </div> <!-- .page-not-found-error -->
 
   </div> <!-- .section-inner -->
 

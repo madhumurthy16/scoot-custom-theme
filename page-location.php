@@ -28,8 +28,7 @@ get_template_part('template-parts/page-hero');
 
       </section> <!-- .world-map -->
 
-    </div>
-
+    </div> <!-- .section-inner -->
 
     <section class="locations-mobile section-inner content-inner">
 
