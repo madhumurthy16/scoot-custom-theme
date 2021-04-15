@@ -8,9 +8,9 @@
 <section class="tech">
 
   <div class="tech-img-wrapper">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/our-tech.jpg' ?>" class="img-tech" aria-hidden="true" />
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/our-tech.jpg' ?>" class="img-tech" alt="" aria-hidden="true" />
+    <span>01</span>
   </div>
-  <span>01</span>
 
   <h3>Our tech</h3>
   <p>We’re using cutting edge technology to drive accessible urban transportation forward.
@@ -21,7 +21,7 @@
 <section class="integrity">
 
   <div class="integrity-img-wrapper">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/our-integrity.jpg' ?>" class="img-integrity" aria-hidden="true" />
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/our-integrity.jpg' ?>" class="img-integrity" alt="" aria-hidden="true" />
     <span>02</span>
   </div>
 
@@ -34,7 +34,7 @@
 <section class="community">
 
   <div class="community-img-wrapper">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/our-community.jpg' ?>" class="img-community" aria-hidden="true" />
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/our-community.jpg' ?>" class="img-community" alt="" aria-hidden="true" />
     <span>03</span>
   </div>
 

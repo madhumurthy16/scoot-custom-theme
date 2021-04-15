@@ -25,7 +25,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  	7.  Home Page
  	8.  Page Hero
 	9.  About Page
-	10. Careers Hero
+	10. Careers Page
 	11. Location Page
 	12. Job CPT - Single Template
 	13. 404 Page
@@ -343,7 +343,7 @@ button:focus {
 
 /* -------------------------------------------------------------------------- */
 
-/*	4.	Site Header
+/*	4. Site Header
 /* -------------------------------------------------------------------------- */
 
 
@@ -1123,7 +1123,7 @@ button:focus {
 }
 
 .locations-mobile .location-mobile:last-child {
-		margin-bottom: 0;
+		margin-bottom: 4rem;
 }
 
 .locations-mobile .location-mobile {

@@ -1,6 +1,6 @@
 <?php
 /**
-* Displays the hero section for pages - About, Careers and Locations.
+* Displays the hero section for pages - About, Careers and Location.
 *
 */
 ?>
@@ -41,7 +41,7 @@
         ?>
 
         <div class="page-hero-pattern">
-          <img src="<?php echo get_template_directory_uri() . '/assets/patterns/white-circles.svg' ?>" aria-hidden="true" />
+          <img src="<?php echo get_template_directory_uri() . '/assets/patterns/white-circles.svg' ?>" alt="" aria-hidden="true" />
         </div>
 
       </div> <!-- .page-hero-content -->
